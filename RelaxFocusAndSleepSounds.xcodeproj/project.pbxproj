@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2F1A5C2B5499A600C37E06 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F1A5B2B5499A600C37E06 /* SoundModel.swift */; };
+		FA2F1A672B54B27700C37E06 /* hd01.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A5F2B54B27500C37E06 /* hd01.m4a */; };
+		FA2F1A682B54B27700C37E06 /* vc01.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A602B54B27600C37E06 /* vc01.m4a */; };
+		FA2F1A692B54B27700C37E06 /* hd02.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A612B54B27600C37E06 /* hd02.m4a */; };
+		FA2F1A6A2B54B27700C37E06 /* es01.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A622B54B27600C37E06 /* es01.m4a */; };
+		FA2F1A6B2B54B27700C37E06 /* vc04.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A632B54B27600C37E06 /* vc04.m4a */; };
+		FA2F1A6C2B54B27700C37E06 /* hd03.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A642B54B27600C37E06 /* hd03.m4a */; };
+		FA2F1A6D2B54B27700C37E06 /* vc03.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A652B54B27700C37E06 /* vc03.m4a */; };
+		FA2F1A6E2B54B27700C37E06 /* vc02.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A662B54B27700C37E06 /* vc02.m4a */; };
+		FA2F1A702B55191C00C37E06 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F1A6F2B55191C00C37E06 /* AudioManager.swift */; };
+		FAC667332B5650B60062E4F3 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC667322B5650B60062E4F3 /* ButtonView.swift */; };
+		FAC667352B57AEE50062E4F3 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC667342B57AEE50062E4F3 /* NavigationBarView.swift */; };
+		FAC667372B57B6A00062E4F3 /* SoundCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC667362B57B6A00062E4F3 /* SoundCellView.swift */; };
 		FAC6A5012B4BF7020064EEC2 /* RelaxFocusAndSleepSoundsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6A5002B4BF7020064EEC2 /* RelaxFocusAndSleepSoundsApp.swift */; };
 		FAC6A5032B4BF7020064EEC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6A5022B4BF7020064EEC2 /* ContentView.swift */; };
 		FAC6A5052B4BF7030064EEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */; };
 		FAC6A5082B4BF7030064EEC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6A5072B4BF7030064EEC2 /* Preview Assets.xcassets */; };
+		FAEDB16A2B546EEF00E5C667 /* SoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB1692B546EEF00E5C667 /* SoundsView.swift */; };
+		FAEDB16C2B546FC100E5C667 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB16B2B546FC100E5C667 /* FavoritesView.swift */; };
+		FAEDB16E2B54716D00E5C667 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB16D2B54716D00E5C667 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA2F1A5B2B5499A600C37E06 /* SoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
+		FA2F1A5F2B54B27500C37E06 /* hd01.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hd01.m4a; sourceTree = "<group>"; };
+		FA2F1A602B54B27600C37E06 /* vc01.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc01.m4a; sourceTree = "<group>"; };
+		FA2F1A612B54B27600C37E06 /* hd02.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hd02.m4a; sourceTree = "<group>"; };
+		FA2F1A622B54B27600C37E06 /* es01.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = es01.m4a; sourceTree = "<group>"; };
+		FA2F1A632B54B27600C37E06 /* vc04.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc04.m4a; sourceTree = "<group>"; };
+		FA2F1A642B54B27600C37E06 /* hd03.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hd03.m4a; sourceTree = "<group>"; };
+		FA2F1A652B54B27700C37E06 /* vc03.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc03.m4a; sourceTree = "<group>"; };
+		FA2F1A662B54B27700C37E06 /* vc02.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc02.m4a; sourceTree = "<group>"; };
+		FA2F1A6F2B55191C00C37E06 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		FAC667322B5650B60062E4F3 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		FAC667342B57AEE50062E4F3 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		FAC667362B57B6A00062E4F3 /* SoundCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCellView.swift; sourceTree = "<group>"; };
 		FAC6A4FD2B4BF7020064EEC2 /* RelaxFocusAndSleepSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelaxFocusAndSleepSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC6A5002B4BF7020064EEC2 /* RelaxFocusAndSleepSoundsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxFocusAndSleepSoundsApp.swift; sourceTree = "<group>"; };
 		FAC6A5022B4BF7020064EEC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC6A5072B4BF7030064EEC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAEDB1682B51DF9100E5C667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAEDB1692B546EEF00E5C667 /* SoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsView.swift; sourceTree = "<group>"; };
+		FAEDB16B2B546FC100E5C667 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		FAEDB16D2B54716D00E5C667 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAC667382B57B6BB0062E4F3 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAC667362B57B6A00062E4F3 /* SoundCellView.swift */,
+				FAC667342B57AEE50062E4F3 /* NavigationBarView.swift */,
+				FAC667322B5650B60062E4F3 /* ButtonView.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		FAC667392B57B7150062E4F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F1A5B2B5499A600C37E06 /* SoundModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAC6673A2B57B7230062E4F3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F1A6F2B55191C00C37E06 /* AudioManager.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FAC6673B2B57B75E0062E4F3 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB16B2B546FC100E5C667 /* FavoritesView.swift */,
+				FAEDB1692B546EEF00E5C667 /* SoundsView.swift */,
+				FAEDB16D2B54716D00E5C667 /* ProfileView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
 		FAC6A4F42B4BF7020064EEC2 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +122,13 @@
 			children = (
 				FAC6A5002B4BF7020064EEC2 /* RelaxFocusAndSleepSoundsApp.swift */,
 				FAC6A5022B4BF7020064EEC2 /* ContentView.swift */,
+				FAC6673B2B57B75E0062E4F3 /* Tabs */,
+				FAC667382B57B6BB0062E4F3 /* Reusable Views */,
+				FAC667392B57B7150062E4F3 /* Model */,
+				FAC6673A2B57B7230062E4F3 /* Components */,
+				FAEDB1682B51DF9100E5C667 /* Info.plist */,
 				FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */,
+				FAE92CE22B4BFEE100A53E1A /* Sounds media files */,
 				FAC6A5062B4BF7030064EEC2 /* Preview Content */,
 			);
 			path = RelaxFocusAndSleepSounds;
@@ -65,6 +140,21 @@
 				FAC6A5072B4BF7030064EEC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAE92CE22B4BFEE100A53E1A /* Sounds media files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F1A622B54B27600C37E06 /* es01.m4a */,
+				FA2F1A5F2B54B27500C37E06 /* hd01.m4a */,
+				FA2F1A612B54B27600C37E06 /* hd02.m4a */,
+				FA2F1A642B54B27600C37E06 /* hd03.m4a */,
+				FA2F1A602B54B27600C37E06 /* vc01.m4a */,
+				FA2F1A662B54B27700C37E06 /* vc02.m4a */,
+				FA2F1A652B54B27700C37E06 /* vc03.m4a */,
+				FA2F1A632B54B27600C37E06 /* vc04.m4a */,
+			);
+			path = "Sounds media files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +216,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC6A5082B4BF7030064EEC2 /* Preview Assets.xcassets in Resources */,
+				FA2F1A6D2B54B27700C37E06 /* vc03.m4a in Resources */,
+				FA2F1A6A2B54B27700C37E06 /* es01.m4a in Resources */,
+				FA2F1A6E2B54B27700C37E06 /* vc02.m4a in Resources */,
+				FA2F1A672B54B27700C37E06 /* hd01.m4a in Resources */,
+				FA2F1A682B54B27700C37E06 /* vc01.m4a in Resources */,
+				FA2F1A6B2B54B27700C37E06 /* vc04.m4a in Resources */,
+				FA2F1A692B54B27700C37E06 /* hd02.m4a in Resources */,
 				FAC6A5052B4BF7030064EEC2 /* Assets.xcassets in Resources */,
+				FA2F1A6C2B54B27700C37E06 /* hd03.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +235,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEDB16C2B546FC100E5C667 /* FavoritesView.swift in Sources */,
+				FA2F1A702B55191C00C37E06 /* AudioManager.swift in Sources */,
+				FAC667332B5650B60062E4F3 /* ButtonView.swift in Sources */,
 				FAC6A5032B4BF7020064EEC2 /* ContentView.swift in Sources */,
+				FAEDB16E2B54716D00E5C667 /* ProfileView.swift in Sources */,
+				FA2F1A5C2B5499A600C37E06 /* SoundModel.swift in Sources */,
+				FAC667372B57B6A00062E4F3 /* SoundCellView.swift in Sources */,
+				FAEDB16A2B546EEF00E5C667 /* SoundsView.swift in Sources */,
 				FAC6A5012B4BF7020064EEC2 /* RelaxFocusAndSleepSoundsApp.swift in Sources */,
+				FAC667352B57AEE50062E4F3 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,11 +381,14 @@
 				DEVELOPMENT_TEAM = 67668SBPLN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RelaxFocusAndSleepSounds/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Relax, Focus And Better Sleep Sounds";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +396,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Aleksei-Voronovskii.RelaxFocusAndSleepSounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,11 +417,14 @@
 				DEVELOPMENT_TEAM = 67668SBPLN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RelaxFocusAndSleepSounds/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Relax, Focus And Better Sleep Sounds";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +432,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Aleksei-Voronovskii.RelaxFocusAndSleepSounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

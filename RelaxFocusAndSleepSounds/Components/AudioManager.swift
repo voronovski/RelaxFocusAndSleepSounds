@@ -32,9 +32,13 @@ final class AudioManager: ObservableObject {
     
     func stop() {
         guard let player = player else { return }
-        
         if player.isPlaying {
             player.stop()
         }
+    }
+    
+    func setTimer(loops: Int) {
+        guard let player = player else { return }
+        player.numberOfLoops = loops
     }
 }

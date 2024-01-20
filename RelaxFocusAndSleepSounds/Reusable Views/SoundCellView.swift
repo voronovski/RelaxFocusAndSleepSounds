@@ -6,13 +6,37 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct SoundCellView: View {
+    @EnvironmentObject var audioManager: AudioManager
+    
+    @Binding var sound: Sound
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(sound.name)
+                .onTapGesture(count: 1) {
+                    audioManager.startPlayer(sound: sound.fileName)
+                }
+            Spacer()
+            ButtonView(
+                icon: sound.isFavorite ? "heart.fill" : "heart",
+                action: toggleFavorite
+            )
+        }
+    }
+    
+    private func toggleFavorite() {
+        sound.isFavorite.toggle()
     }
 }
 
-#Preview {
-    SoundCellView()
+struct SoundCellView_Previews: PreviewProvider {
+    @State static var testSound = Sound(name: "Small old electric shaver", fileName: "es01", isFavorite: true)
+
+    static var previews: some View {
+        SoundCellView(sound: $testSound)
+            .environmentObject(AudioManager())
+    }
 }

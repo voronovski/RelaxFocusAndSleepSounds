@@ -9,16 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            SoundsView()
+                .tabItem {
+                    Image(systemName: "music.note.list")
+                    Text("Sounds")
+                }
+            FavoritesView()
+                .tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Favorites")
+                }
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("Profile")
+                }
         }
-        .padding()
+        .accentColor(.red)
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(AudioManager())
 }
