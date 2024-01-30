@@ -21,7 +21,7 @@ struct SoundCellView: View {
                 }
             Spacer()
             ButtonView(
-                icon: sound.isFavorite ? "heart.fill" : "heart",
+                icon: sound.isFavorite ? "star.fill" : "star",
                 action: toggleFavorite
             )
         }
@@ -33,7 +33,7 @@ struct SoundCellView: View {
 }
 
 struct SoundCellView_Previews: PreviewProvider {
-    @State static var testSound = Sound(name: "Small old electric shaver", fileName: "es01", isFavorite: true)
+    @State static var testSound = Sound(category: .electricShavers, name: "Small old electric shaver", fileName: "es01", isFavorite: true)
 
     static var previews: some View {
         SoundCellView(sound: $testSound)

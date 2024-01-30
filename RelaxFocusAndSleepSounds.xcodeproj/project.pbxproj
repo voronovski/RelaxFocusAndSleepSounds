@@ -24,8 +24,9 @@
 		FAC6A5032B4BF7020064EEC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6A5022B4BF7020064EEC2 /* ContentView.swift */; };
 		FAC6A5052B4BF7030064EEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */; };
 		FAC6A5082B4BF7030064EEC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6A5072B4BF7030064EEC2 /* Preview Assets.xcassets */; };
-		FAEDB16A2B546EEF00E5C667 /* SoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB1692B546EEF00E5C667 /* SoundsView.swift */; };
-		FAEDB16C2B546FC100E5C667 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB16B2B546FC100E5C667 /* FavoritesView.swift */; };
+		FAC80DD12B78B96C006DB7C5 /* vc05.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FAC80DD02B78B96C006DB7C5 /* vc05.m4a */; };
+		FACDEF622B67A955007E6C6A /* FavoritesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDEF612B67A955007E6C6A /* FavoritesListView.swift */; };
+		FAEDB16A2B546EEF00E5C667 /* SoundListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB1692B546EEF00E5C667 /* SoundListView.swift */; };
 		FAEDB16E2B54716D00E5C667 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB16D2B54716D00E5C667 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,9 +49,10 @@
 		FAC6A5022B4BF7020064EEC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC6A5072B4BF7030064EEC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAC80DD02B78B96C006DB7C5 /* vc05.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc05.m4a; sourceTree = "<group>"; };
+		FACDEF612B67A955007E6C6A /* FavoritesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListView.swift; sourceTree = "<group>"; };
 		FAEDB1682B51DF9100E5C667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		FAEDB1692B546EEF00E5C667 /* SoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsView.swift; sourceTree = "<group>"; };
-		FAEDB16B2B546FC100E5C667 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		FAEDB1692B546EEF00E5C667 /* SoundListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListView.swift; sourceTree = "<group>"; };
 		FAEDB16D2B54716D00E5C667 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,14 +93,15 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		FAC6673B2B57B75E0062E4F3 /* Tabs */ = {
+		FAC6673B2B57B75E0062E4F3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FAEDB16B2B546FC100E5C667 /* FavoritesView.swift */,
-				FAEDB1692B546EEF00E5C667 /* SoundsView.swift */,
+				FAC6A5022B4BF7020064EEC2 /* ContentView.swift */,
+				FAEDB1692B546EEF00E5C667 /* SoundListView.swift */,
+				FACDEF612B67A955007E6C6A /* FavoritesListView.swift */,
 				FAEDB16D2B54716D00E5C667 /* ProfileView.swift */,
 			);
-			path = Tabs;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		FAC6A4F42B4BF7020064EEC2 = {
@@ -121,8 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				FAC6A5002B4BF7020064EEC2 /* RelaxFocusAndSleepSoundsApp.swift */,
-				FAC6A5022B4BF7020064EEC2 /* ContentView.swift */,
-				FAC6673B2B57B75E0062E4F3 /* Tabs */,
+				FAC6673B2B57B75E0062E4F3 /* Views */,
 				FAC667382B57B6BB0062E4F3 /* Reusable Views */,
 				FAC667392B57B7150062E4F3 /* Model */,
 				FAC6673A2B57B7230062E4F3 /* Components */,
@@ -153,6 +155,7 @@
 				FA2F1A662B54B27700C37E06 /* vc02.m4a */,
 				FA2F1A652B54B27700C37E06 /* vc03.m4a */,
 				FA2F1A632B54B27600C37E06 /* vc04.m4a */,
+				FAC80DD02B78B96C006DB7C5 /* vc05.m4a */,
 			);
 			path = "Sounds media files";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				FA2F1A6D2B54B27700C37E06 /* vc03.m4a in Resources */,
 				FA2F1A6A2B54B27700C37E06 /* es01.m4a in Resources */,
 				FA2F1A6E2B54B27700C37E06 /* vc02.m4a in Resources */,
+				FAC80DD12B78B96C006DB7C5 /* vc05.m4a in Resources */,
 				FA2F1A672B54B27700C37E06 /* hd01.m4a in Resources */,
 				FA2F1A682B54B27700C37E06 /* vc01.m4a in Resources */,
 				FA2F1A6B2B54B27700C37E06 /* vc04.m4a in Resources */,
@@ -235,14 +239,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEDB16C2B546FC100E5C667 /* FavoritesView.swift in Sources */,
+				FACDEF622B67A955007E6C6A /* FavoritesListView.swift in Sources */,
 				FA2F1A702B55191C00C37E06 /* AudioManager.swift in Sources */,
 				FAC667332B5650B60062E4F3 /* ButtonView.swift in Sources */,
 				FAC6A5032B4BF7020064EEC2 /* ContentView.swift in Sources */,
 				FAEDB16E2B54716D00E5C667 /* ProfileView.swift in Sources */,
 				FA2F1A5C2B5499A600C37E06 /* SoundModel.swift in Sources */,
 				FAC667372B57B6A00062E4F3 /* SoundCellView.swift in Sources */,
-				FAEDB16A2B546EEF00E5C667 /* SoundsView.swift in Sources */,
+				FAEDB16A2B546EEF00E5C667 /* SoundListView.swift in Sources */,
 				FAC6A5012B4BF7020064EEC2 /* RelaxFocusAndSleepSoundsApp.swift in Sources */,
 				FAC667352B57AEE50062E4F3 /* NavigationBarView.swift in Sources */,
 			);
@@ -303,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -360,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
