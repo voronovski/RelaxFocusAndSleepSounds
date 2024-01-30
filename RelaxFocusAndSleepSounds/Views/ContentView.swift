@@ -8,22 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var soundList = Category.getSoundList()
+    
     var body: some View {
         TabView {
-            SoundsView()
+            SoundListView(soundList: $soundList)
                 .tabItem {
-                    Image(systemName: "music.note.list")
-                    Text("Sounds")
+                    Label("Sounds", systemImage: "music.note.list")
                 }
-            FavoritesView()
+            FavoritesListView(soundList: $soundList)
                 .tabItem {
-                    Image(systemName: "heart.fill")
-                    Text("Favorites")
+                    Label("Favorites", systemImage: "heart.fill")
                 }
             ProfileView()
                 .tabItem {
-                    Image(systemName: "person.fill")
-                    Text("Profile")
+                    Label("Profile", systemImage: "person.fill")
                 }
         }
         .accentColor(.red)
