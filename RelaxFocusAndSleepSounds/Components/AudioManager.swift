@@ -10,7 +10,7 @@ import AVKit
 
 final class AudioManager: ObservableObject {
     
-    var player: AVAudioPlayer?
+    @Published var player: AVAudioPlayer?
     
     func startPlayer(sound: String) {
         guard let url = Bundle.main.url(forResource: sound, withExtension: "m4a") else {

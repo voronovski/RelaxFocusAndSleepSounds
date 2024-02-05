@@ -21,5 +21,6 @@ struct ButtonView: View {
 }
 
 #Preview {
-    ButtonView(icon: "heart", action: {})
+    ButtonView(icon: "heart.fill", action: {})
 }
+
