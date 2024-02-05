@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct NavigationBarView: View {
-    @EnvironmentObject var audioManager: AudioManager
+    
+    @EnvironmentObject var sharedData: SharedData
     
     @State private var showingTimerList = false
     
@@ -17,14 +18,14 @@ struct NavigationBarView: View {
             ButtonView(icon: "timer", action: {
                 showingTimerList.toggle()
             })
-            ButtonView(icon: "stop.fill", action: audioManager.stop)
+            ButtonView(icon: "stop.fill", action: sharedData.audioManager.stop)
         }
         .actionSheet(isPresented: $showingTimerList) {
             ActionSheet(title: Text("Set a timer"), message: Text("By default sound will play 15 min."), buttons: [
-                .default(Text("30 minutes")) { audioManager.setTimer(loops: 1) },
-                .default(Text("45 minutes")) { audioManager.setTimer(loops: 2) },
-                .default(Text("1 hour")) { audioManager.setTimer(loops: 3) },
-                .default(Text("2 hour")) { audioManager.setTimer(loops: 7) },
+                .default(Text("30 minutes")) { sharedData.audioManager.setTimer(loops: 1) },
+                .default(Text("45 minutes")) { sharedData.audioManager.setTimer(loops: 2) },
+                .default(Text("1 hour")) { sharedData.audioManager.setTimer(loops: 3) },
+                .default(Text("2 hour")) { sharedData.audioManager.setTimer(loops: 7) },
                 .cancel()
             ])
         }
@@ -33,5 +34,10 @@ struct NavigationBarView: View {
 
 #Preview {
     NavigationBarView()
-        .environmentObject(AudioManager())
+        .environmentObject(
+            SharedData(
+                audioManager: AudioManager(),
+                dataManager: DataManager()
+            )
+        )
 }

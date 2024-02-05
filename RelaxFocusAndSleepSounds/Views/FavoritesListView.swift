@@ -8,31 +8,34 @@
 import SwiftUI
 
 struct FavoritesListView: View {
-    @Binding var soundList: [Sound]
-
-        var body: some View {
-            NavigationView {
-                List {
-                    ForEach(soundList.indices, id: \.self) { index in
-                        if soundList[index].isFavorite {
-                            SoundCellView(sound: $soundList[index])
-                        }
+    
+    @EnvironmentObject var sharedData: SharedData
+    
+    var body: some View {
+        NavigationView {
+            List {
+                ForEach(sharedData.dataManager.sounds.indices,
+                        id: \.self
+                ) { index in
+                    if sharedData.dataManager.sounds[index].isFavorite {
+                        CellView(sound: sharedData.dataManager.sounds[index])
                     }
                 }
-                .navigationTitle("Favorites")
-                .toolbar {
-                    NavigationBarView()
-                }
+            }
+            .navigationTitle("Favorites")
+            .toolbar {
+                NavigationBarView()
             }
         }
+    }
 }
 
-struct FavoritesListView_Previews: PreviewProvider {
-    @State static var testSoundList =
-    [Sound(category: .electricShavers, name: "Small old electric shaver", fileName: "es01", isFavorite: true),]
-    
-    static var previews: some View {
-        FavoritesListView(soundList: $testSoundList)
-            .environmentObject(AudioManager())
-    }
+#Preview {
+    FavoritesListView()
+        .environmentObject(
+            SharedData(
+                audioManager: AudioManager(),
+                dataManager: DataManager()
+            )
+        )
 }
