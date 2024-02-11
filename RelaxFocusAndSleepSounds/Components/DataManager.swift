@@ -25,6 +25,7 @@ final class DataManager: ObservableObject {
             Sound(category: .vacuumCleaners, name: "Style two standard cleaner", fileName: "vc02", isFavorite: false),
             Sound(category: .vacuumCleaners, name: "Ghosty vacuum", fileName: "vc03", isFavorite: false),
             Sound(category: .vacuumCleaners, name: "Next room vacuum", fileName: "vc04", isFavorite: false),
+            Sound(category: .vacuumCleaners, name: "Modern vacuum cleaner", fileName: "vc05", isFavorite: true),
         ]
         sounds.append(contentsOf: initialSounds)
     }

@@ -24,6 +24,7 @@
 		FAC6A5032B4BF7020064EEC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6A5022B4BF7020064EEC2 /* ContentView.swift */; };
 		FAC6A5052B4BF7030064EEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */; };
 		FAC6A5082B4BF7030064EEC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6A5072B4BF7030064EEC2 /* Preview Assets.xcassets */; };
+		FAC80DD32B78BD78006DB7C5 /* vc05.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FAC80DD22B78BD78006DB7C5 /* vc05.m4a */; };
 		FACDEF622B67A955007E6C6A /* FavoritesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDEF612B67A955007E6C6A /* FavoritesListView.swift */; };
 		FACDEF642B6CCA6D007E6C6A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDEF632B6CCA6D007E6C6A /* DataManager.swift */; };
 		FACDEF662B6CD2F7007E6C6A /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDEF652B6CD2F7007E6C6A /* SharedData.swift */; };
@@ -50,6 +51,7 @@
 		FAC6A5022B4BF7020064EEC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC6A5072B4BF7030064EEC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAC80DD22B78BD78006DB7C5 /* vc05.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc05.m4a; sourceTree = "<group>"; };
 		FACDEF612B67A955007E6C6A /* FavoritesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListView.swift; sourceTree = "<group>"; };
 		FACDEF632B6CCA6D007E6C6A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		FACDEF652B6CD2F7007E6C6A /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				FA2F1A662B54B27700C37E06 /* vc02.m4a */,
 				FA2F1A652B54B27700C37E06 /* vc03.m4a */,
 				FA2F1A632B54B27600C37E06 /* vc04.m4a */,
+				FAC80DD22B78BD78006DB7C5 /* vc05.m4a */,
 			);
 			path = "Sounds media files";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				FA2F1A6D2B54B27700C37E06 /* vc03.m4a in Resources */,
 				FA2F1A6A2B54B27700C37E06 /* es01.m4a in Resources */,
 				FA2F1A6E2B54B27700C37E06 /* vc02.m4a in Resources */,
+				FAC80DD32B78BD78006DB7C5 /* vc05.m4a in Resources */,
 				FA2F1A672B54B27700C37E06 /* hd01.m4a in Resources */,
 				FA2F1A682B54B27700C37E06 /* vc01.m4a in Resources */,
 				FA2F1A6B2B54B27700C37E06 /* vc04.m4a in Resources */,
