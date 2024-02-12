@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Category: String, CaseIterable, Identifiable {
+enum Category: String, CaseIterable, Identifiable, Codable {
     case electricShavers = "Electric shavers"
     case hairDryers = "Hair dryers"
     case vacuumCleaners = "Vacuum cleaners"
@@ -17,12 +17,12 @@ enum Category: String, CaseIterable, Identifiable {
 
 // MARK: Immutable Struct
 
-struct Sound: Identifiable {
+struct Sound: Identifiable, Codable {
     let id: UUID
     let category: Category
     let name: String
     let fileName: String
-    var isFavorite: Bool
+    let isFavorite: Bool
     
     init(id: UUID = UUID(), category: Category, name: String, fileName: String, isFavorite: Bool) {
         self.id = id
