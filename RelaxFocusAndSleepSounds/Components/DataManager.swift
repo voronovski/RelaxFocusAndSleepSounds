@@ -32,7 +32,7 @@ final class DataManager: ObservableObject {
                 Sound(category: .hairDryers, name: "Old fashion dryer", fileName: "hd02", isFavorite: false),
                 Sound(category: .hairDryers, name: "Modern one", fileName: "hd03", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "American vacuum cleaner", fileName: "vc01", isFavorite: true),
-                Sound(category: .vacuumCleaners, name: "Style two standard cleaner", fileName: "vc02", isFavorite: false),
+                Sound(category: .vacuumCleaners, name: "Portable car cleaner", fileName: "vc02", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Ghosty vacuum", fileName: "vc03", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Next room vacuum", fileName: "vc04", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Modern vacuum cleaner", fileName: "vc05", isFavorite: true),
