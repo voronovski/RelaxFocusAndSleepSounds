@@ -22,10 +22,13 @@ struct CellView: View {
                     audioManager.startPlayer(sound: sound.fileName)
                 }
             Spacer()
-            ButtonView(
-                icon: sound.isFavorite ? "heart.fill" : "heart",
-                action: {dataManager.toggleFavorite(sound: sound)}
-            )
+            Image(systemName: sound.isFavorite ? "heart.fill" : "heart")
+                .onTapGesture {
+                    withAnimation {
+                        dataManager.toggleFavorite(sound: sound)
+                    }
+                }
+                .foregroundColor(.red)
         }
     }
 }
