@@ -16,7 +16,7 @@ struct ButtonView: View {
         Button(action: action) {
             Image(systemName: icon)
         }
-        .foregroundStyle(.red)
+        .foregroundStyle(.accent)
     }
 }
 

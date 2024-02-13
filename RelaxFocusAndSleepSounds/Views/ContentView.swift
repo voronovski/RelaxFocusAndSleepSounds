@@ -24,7 +24,7 @@ struct ContentView: View {
                     Label("Profile", systemImage: "person.fill")
                 }
         }
-        .accentColor(.red)
+        .accentColor(.accentColor)
     }
 }
 

@@ -28,7 +28,7 @@ struct CellView: View {
                         dataManager.toggleFavorite(sound: sound)
                     }
                 }
-                .foregroundColor(.red)
+                .foregroundStyle(.accent)
         }
     }
 }
