@@ -10,7 +10,8 @@ import AVKit
 
 struct CellView: View {
     
-    @EnvironmentObject var sharedData: SharedData
+    @EnvironmentObject var audioManager: AudioManager
+    @EnvironmentObject var dataManager: DataManager
     
     var sound: Sound
     
@@ -18,12 +19,12 @@ struct CellView: View {
         HStack {
             Text(sound.name)
                 .onTapGesture(count: 1) {
-                    sharedData.audioManager.startPlayer(sound: sound.fileName)
+                    audioManager.startPlayer(sound: sound.fileName)
                 }
             Spacer()
             ButtonView(
                 icon: sound.isFavorite ? "heart.fill" : "heart",
-                action: {sharedData.dataManager.toggleFavorite(sound: sound)}
+                action: {dataManager.toggleFavorite(sound: sound)}
             )
         }
     }
@@ -31,10 +32,5 @@ struct CellView: View {
 
 #Preview {
     CellView(sound: Sound(category: .electricShavers, name: "Small old electric shaver", fileName: "es01", isFavorite: true))
-        .environmentObject(
-            SharedData(
-                audioManager: AudioManager(),
-                dataManager: DataManager()
-            )
-        )
+        .environmentObject(AudioManager())
 }

@@ -45,9 +45,7 @@ final class DataManager: ObservableObject {
     
     func toggleFavorite(sound: Sound) {
         if let index = sounds.firstIndex(where: { $0.id == sound.id }) {
-            print("Значение isFavorite до: \(sounds[index].isFavorite)")
             sounds[index] = sound.toggleFavorite()
-            print("Значение isFavorite после: \(sounds[index].isFavorite)")
         }
     }
     

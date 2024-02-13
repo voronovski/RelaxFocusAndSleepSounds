@@ -30,10 +30,6 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .environmentObject(
-            SharedData(
-                audioManager: AudioManager(),
-                dataManager: DataManager()
-            )
-        )
+        .environmentObject(DataManager())
+        .environmentObject(AudioManager())
 }

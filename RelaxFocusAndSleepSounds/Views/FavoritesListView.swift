@@ -9,16 +9,16 @@ import SwiftUI
 
 struct FavoritesListView: View {
     
-    @EnvironmentObject var sharedData: SharedData
+    @EnvironmentObject var dataManager: DataManager
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(sharedData.dataManager.sounds.indices,
+                ForEach(dataManager.sounds.indices,
                         id: \.self
                 ) { index in
-                    if sharedData.dataManager.sounds[index].isFavorite {
-                        CellView(sound: sharedData.dataManager.sounds[index])
+                    if dataManager.sounds[index].isFavorite {
+                        CellView(sound: dataManager.sounds[index])
                     }
                 }
             }
@@ -32,10 +32,6 @@ struct FavoritesListView: View {
 
 #Preview {
     FavoritesListView()
-        .environmentObject(
-            SharedData(
-                audioManager: AudioManager(),
-                dataManager: DataManager()
-            )
-        )
+        .environmentObject(DataManager())
+        .environmentObject(AudioManager())
 }

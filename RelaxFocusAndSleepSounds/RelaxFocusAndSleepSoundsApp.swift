@@ -10,15 +10,19 @@ import SwiftUI
 @main
 struct RelaxFocusAndSleepSoundsApp: App {
     
-    @StateObject var sharedData = SharedData(
-        audioManager: AudioManager(),
-        dataManager: DataManager()
-    )
+    @StateObject var dataManager = DataManager()
+    @StateObject var audioManager = AudioManager()
+    
+//    @StateObject var sharedData = SharedData(
+//        audioManager: AudioManager(),
+//        dataManager: DataManager()
+//    )
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(sharedData)
+                .environmentObject(dataManager)
+                .environmentObject(audioManager)
         }
     }
 }

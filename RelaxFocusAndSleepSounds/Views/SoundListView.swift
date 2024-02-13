@@ -9,15 +9,15 @@ import SwiftUI
 
 struct SoundListView: View {
 
-    @EnvironmentObject var sharedData: SharedData
+    @EnvironmentObject var dataManager: DataManager
     
     var body: some View {
         NavigationView {
             List {
                 ForEach(Category.allCases) { category in
                     Section(header: Text(category.rawValue)) {
-                        ForEach(sharedData.dataManager.sounds.enumerated().filter { $0.element.category == category }.map { $0.offset }, id: \.self) { index in
-                            CellView(sound: sharedData.dataManager.sounds[index])
+                        ForEach(dataManager.sounds.enumerated().filter { $0.element.category == category }.map { $0.offset }, id: \.self) { index in
+                            CellView(sound: dataManager.sounds[index])
                         }
                     }
                     .headerProminence(.increased)
@@ -33,10 +33,6 @@ struct SoundListView: View {
 
 #Preview {
     SoundListView()
-        .environmentObject(
-            SharedData(
-                audioManager: AudioManager(),
-                dataManager: DataManager()
-            )
-        )
+        .environmentObject(DataManager())
+        .environmentObject(AudioManager())
 }
