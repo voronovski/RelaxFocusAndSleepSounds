@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NavigationBarView: View {
+    
     @EnvironmentObject var audioManager: AudioManager
     
     @State private var showingTimerList = false

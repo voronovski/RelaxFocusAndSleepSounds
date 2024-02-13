@@ -8,17 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var soundList = Sound.getInitialList()
-    
-    var body: some View {
+        
+     var body: some View {
         TabView {
-            SoundListView(soundList: $soundList)
+            SoundListView()
                 .tabItem {
                     Label("Sounds", systemImage: "music.note.list")
                 }
-            FavoritesListView(soundList: $soundList)
+            FavoritesListView()
                 .tabItem {
-                    Label("Favorites", systemImage: "star.fill")
+                    Label("Favorites", systemImage: "heart.fill")
                 }
             ProfileView()
                 .tabItem {
@@ -31,5 +30,6 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(DataManager())
         .environmentObject(AudioManager())
 }
