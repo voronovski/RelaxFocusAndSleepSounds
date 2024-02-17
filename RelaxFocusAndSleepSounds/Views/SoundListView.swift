@@ -8,21 +8,35 @@
 import SwiftUI
 
 struct SoundListView: View {
-
     @EnvironmentObject var dataManager: DataManager
-    
+
+    private let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+    ]
+
     var body: some View {
         NavigationView {
-            List {
-                ForEach(Category.allCases) { category in
-                    Section(header: Text(category.rawValue)) {
-                        ForEach(dataManager.sounds.enumerated().filter { $0.element.category == category }.map { $0.offset }, id: \.self) { index in
-                            CellView(sound: dataManager.sounds[index])
+            ScrollView {
+                // Итерация по всем категориям
+                ForEach(Category.allCases, id: \.id) { category in
+                    // Секция для каждой категории
+                    VStack(alignment: .leading) {
+                        Text(category.rawValue)
+                            .font(.headline)
+
+                        LazyVGrid(columns: columns) {
+                            // Фильтрация звуков по текущей категории и их отображение
+                            ForEach(dataManager.sounds.filter { $0.category == category }, id: \.id) { sound in
+                                GridCellView(sound: sound)
+                            }
                         }
+                        .padding(.bottom)
                     }
-                    .headerProminence(.increased)
                 }
             }
+            .padding()
             .navigationTitle("Sounds")
             .toolbar {
                 NavigationBarView()

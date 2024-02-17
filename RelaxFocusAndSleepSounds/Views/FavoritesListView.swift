@@ -11,17 +11,23 @@ struct FavoritesListView: View {
     
     @EnvironmentObject var dataManager: DataManager
     
+    private let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+    ]
+    
     var body: some View {
         NavigationView {
-            List {
-                ForEach(dataManager.sounds.indices,
-                        id: \.self
-                ) { index in
-                    if dataManager.sounds[index].isFavorite {
-                        CellView(sound: dataManager.sounds[index])
+            VStack {
+                LazyVGrid(columns: columns, alignment: .leading) {
+                    ForEach(dataManager.sounds.filter { $0.isFavorite }, id: \.id) { sound in
+                        GridCellView(sound: sound)
                     }
                 }
+                Spacer() // Добавляется для выталкивания содержимого к верху
             }
+            .padding()
             .navigationTitle("Favorites")
             .toolbar {
                 NavigationBarView()
