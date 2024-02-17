@@ -25,7 +25,7 @@ struct FavoritesListView: View {
                         GridCellView(sound: sound)
                     }
                 }
-                Spacer() // Добавляется для выталкивания содержимого к верху
+                Spacer()
             }
             .padding()
             .navigationTitle("Favorites")
