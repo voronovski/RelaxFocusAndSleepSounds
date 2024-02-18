@@ -16,18 +16,15 @@ struct GridCellView: View {
     
     var body: some View {
         ZStack {
-            ZStack {
-                Rectangle()
-                    .frame(width: 100, height: 100)
-                    .foregroundStyle(.gray)
-                    .opacity(0.4)
-                    .cornerRadius(20)
-                Text(sound.fileName)
-            }
-            .onTapGesture(count: 1) {
-                audioManager.startPlayer(sound: sound.fileName)
-            }
-
+            Image(sound.fileName)
+                .resizable()
+                .frame(width: 100, height: 100)
+                .cornerRadius(20)
+                .shadow(radius: 10)
+                .onTapGesture(count: 1) {
+                    audioManager.startPlayer(sound: sound.fileName)
+                }
+            
             Image(systemName: sound.isFavorite ? "heart.fill" : "heart")
                 .resizable()
                 .frame(width: 22, height: 22)
