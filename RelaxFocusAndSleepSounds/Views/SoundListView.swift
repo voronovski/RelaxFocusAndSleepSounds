@@ -8,20 +8,18 @@
 import SwiftUI
 
 struct SoundListView: View {
-
+    
     @EnvironmentObject var dataManager: DataManager
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(Category.allCases) { category in
-                    Section(header: Text(category.rawValue)) {
-                        ForEach(dataManager.sounds.enumerated().filter { $0.element.category == category }.map { $0.offset }, id: \.self) { index in
-                            CellView(sound: dataManager.sounds[index])
-                        }
+            List(Category.allCases, id: \.id) { category in
+                Section(header: Text(category.rawValue)) {
+                    ForEach(dataManager.sounds.filter { $0.category == category }, id: \.id) { sound in
+                        CellView(sound: sound)
                     }
-                    .headerProminence(.increased)
                 }
+                .headerProminence(.increased)
             }
             .navigationTitle("Sounds")
             .toolbar {
@@ -30,6 +28,7 @@ struct SoundListView: View {
         }
     }
 }
+
 
 #Preview {
     SoundListView()

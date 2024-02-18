@@ -13,14 +13,8 @@ struct FavoritesListView: View {
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(dataManager.sounds.indices,
-                        id: \.self
-                ) { index in
-                    if dataManager.sounds[index].isFavorite {
-                        CellView(sound: dataManager.sounds[index])
-                    }
-                }
+            List(dataManager.sounds.filter { $0.isFavorite }, id: \.id) { sound in
+                CellView(sound: sound)
             }
             .navigationTitle("Favorites")
             .toolbar {
@@ -29,6 +23,7 @@ struct FavoritesListView: View {
         }
     }
 }
+
 
 #Preview {
     FavoritesListView()
