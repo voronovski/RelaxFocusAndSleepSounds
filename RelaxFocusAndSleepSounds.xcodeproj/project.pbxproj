@@ -133,7 +133,7 @@
 				FAC6673A2B57B7230062E4F3 /* Components */,
 				FAEDB1682B51DF9100E5C667 /* Info.plist */,
 				FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */,
-				FAE92CE22B4BFEE100A53E1A /* Sounds media files */,
+				FAE92CE22B4BFEE100A53E1A /* Sounds */,
 				FAC6A5062B4BF7030064EEC2 /* Preview Content */,
 			);
 			path = RelaxFocusAndSleepSounds;
@@ -147,7 +147,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FAE92CE22B4BFEE100A53E1A /* Sounds media files */ = {
+		FAE92CE22B4BFEE100A53E1A /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
 				FA2F1A622B54B27600C37E06 /* es01.m4a */,
@@ -160,7 +160,7 @@
 				FA2F1A632B54B27600C37E06 /* vc04.m4a */,
 				FAC80DD22B78BD78006DB7C5 /* vc05.m4a */,
 			);
-			path = "Sounds media files";
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
