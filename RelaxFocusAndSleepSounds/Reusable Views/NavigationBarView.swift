@@ -10,11 +10,22 @@ import SwiftUI
 struct NavigationBarView: View {
     
     @EnvironmentObject var audioManager: AudioManager
+    @EnvironmentObject var dataManager: DataManager
     
     @State private var showingTimerList = false
     
     var body: some View {
         HStack {
+            Image(dataManager.isListView ? "square.grid.3x3.fill" : "checklist.unchecked")
+                .onTapGesture {
+                    withAnimation {
+                        dataManager.isListView.toggle()
+                    }
+                }
+                .foregroundStyle(.accent)
+            ButtonView(icon: dataManager.isListView ? "square.grid.3x3.fill" : "checklist.unchecked", action: {
+                dataManager.isListView.toggle()
+            })
             ButtonView(icon: "timer", action: {
                 showingTimerList.toggle()
             })
@@ -35,4 +46,5 @@ struct NavigationBarView: View {
 #Preview {
     NavigationBarView()
         .environmentObject(AudioManager())
+        .environmentObject(DataManager())
 }

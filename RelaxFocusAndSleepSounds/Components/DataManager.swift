@@ -9,6 +9,8 @@ import Foundation
 
 final class DataManager: ObservableObject {
     
+    @Published var isListView: Bool = true
+    
     @Published var sounds: [Sound] = [] {
         didSet {
             saveSounds()
