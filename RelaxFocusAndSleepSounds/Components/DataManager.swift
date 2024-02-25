@@ -9,7 +9,12 @@ import Foundation
 
 final class DataManager: ObservableObject {
     
-    @Published var isListView: Bool = true
+    @Published var isListView: Bool = true 
+//    {
+//        didSet {
+//            saveListOrGridView()
+//        }
+//    }
     
     @Published var sounds: [Sound] = [] {
         didSet {
@@ -17,6 +22,7 @@ final class DataManager: ObservableObject {
         }
     }
     
+//    let listOrGridKey: String = "listOrGridView"
     let soundsKey: String = "sounds_list"
     
     init() {
@@ -30,14 +36,15 @@ final class DataManager: ObservableObject {
         else {
             let initialSounds = [
                 Sound(category: .electricShavers, name: "Small old electric shaver", fileName: "es01", isFavorite: true),
-                Sound(category: .hairDryers, name: "Standard hotel dryer", fileName: "hd01", isFavorite: true),
+                Sound(category: .hairDryers, name: "Standard hotel dryer", fileName: "hd01", isFavorite: false),
                 Sound(category: .hairDryers, name: "Old fashion dryer", fileName: "hd02", isFavorite: false),
                 Sound(category: .hairDryers, name: "Modern one", fileName: "hd03", isFavorite: false),
-                Sound(category: .vacuumCleaners, name: "American vacuum cleaner", fileName: "vc01", isFavorite: true),
+                Sound(category: .vacuumCleaners, name: "American vacuum cleaner", fileName: "vc01", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Portable car cleaner", fileName: "vc02", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Ghosty vacuum", fileName: "vc03", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Next room vacuum", fileName: "vc04", isFavorite: false),
-                Sound(category: .vacuumCleaners, name: "Modern vacuum cleaner", fileName: "vc05", isFavorite: true),
+                Sound(category: .vacuumCleaners, name: "Modern vacuum cleaner", fileName: "vc05", isFavorite: false),
+                Sound(category: .vacuumCleaners, name: "Robot vacuum cleaner", fileName: "vc06", isFavorite: false),
             ]
             sounds.append(contentsOf: initialSounds)
             return
@@ -56,4 +63,10 @@ final class DataManager: ObservableObject {
             UserDefaults.standard.set(encodedData, forKey: soundsKey)
         }
     }
+    
+//    func saveListOrGridView() {
+//        if let encodedData = try? JSONEncoder().encode(sounds) {
+//            UserDefaults.standard.set(encodedData, forKey: listOrGridKey)
+//        }
+//    }
 }
