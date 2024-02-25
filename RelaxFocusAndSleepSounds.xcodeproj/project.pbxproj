@@ -18,6 +18,7 @@
 		FA2F1A6E2B54B27700C37E06 /* vc02.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A662B54B27700C37E06 /* vc02.m4a */; };
 		FA2F1A702B55191C00C37E06 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F1A6F2B55191C00C37E06 /* AudioManager.swift */; };
 		FA9C5E422B89E8480069708E /* GridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C5E412B89E8480069708E /* GridCellView.swift */; };
+		FA9C5E462B8B31B70069708E /* vc06.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA9C5E452B8B31B70069708E /* vc06.m4a */; };
 		FAC667332B5650B60062E4F3 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC667322B5650B60062E4F3 /* ButtonView.swift */; };
 		FAC667352B57AEE50062E4F3 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC667342B57AEE50062E4F3 /* NavigationBarView.swift */; };
 		FAC667372B57B6A00062E4F3 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC667362B57B6A00062E4F3 /* CellView.swift */; };
@@ -44,6 +45,7 @@
 		FA2F1A662B54B27700C37E06 /* vc02.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc02.m4a; sourceTree = "<group>"; };
 		FA2F1A6F2B55191C00C37E06 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		FA9C5E412B89E8480069708E /* GridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellView.swift; sourceTree = "<group>"; };
+		FA9C5E452B8B31B70069708E /* vc06.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc06.m4a; sourceTree = "<group>"; };
 		FAC667322B5650B60062E4F3 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		FAC667342B57AEE50062E4F3 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		FAC667362B57B6A00062E4F3 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				FA2F1A652B54B27700C37E06 /* vc03.m4a */,
 				FA2F1A632B54B27600C37E06 /* vc04.m4a */,
 				FAC80DD22B78BD78006DB7C5 /* vc05.m4a */,
+				FA9C5E452B8B31B70069708E /* vc06.m4a */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				FAC80DD32B78BD78006DB7C5 /* vc05.m4a in Resources */,
 				FA2F1A672B54B27700C37E06 /* hd01.m4a in Resources */,
 				FA2F1A682B54B27700C37E06 /* vc01.m4a in Resources */,
+				FA9C5E462B8B31B70069708E /* vc06.m4a in Resources */,
 				FA2F1A6B2B54B27700C37E06 /* vc04.m4a in Resources */,
 				FA2F1A692B54B27700C37E06 /* hd02.m4a in Resources */,
 				FAC6A5052B4BF7030064EEC2 /* Assets.xcassets in Resources */,
