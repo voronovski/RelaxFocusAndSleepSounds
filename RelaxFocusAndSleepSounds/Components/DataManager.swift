@@ -53,6 +53,8 @@ final class DataManager: ObservableObject {
         else {
             let initialSounds = [
                 Sound(category: .electricShavers, name: "Small old electric shaver", fileName: "es01", isFavorite: true),
+                Sound(category: .electricShavers, name: "Electric razor", fileName: "es02", isFavorite: false),
+                Sound(category: .electricShavers, name: "ASMR Barbershop", fileName: "es03", isFavorite: false),
                 Sound(category: .hairDryers, name: "Standard hotel dryer", fileName: "hd01", isFavorite: false),
                 Sound(category: .hairDryers, name: "Old fashion dryer", fileName: "hd02", isFavorite: false),
                 Sound(category: .hairDryers, name: "Modern one", fileName: "hd03", isFavorite: false),
