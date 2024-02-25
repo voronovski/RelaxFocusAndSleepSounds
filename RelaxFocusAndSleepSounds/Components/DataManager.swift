@@ -9,10 +9,26 @@ import Foundation
 
 final class DataManager: ObservableObject {
     
-    @Published var isListView: Bool = true 
-    {
+    enum DisplayType: String, CaseIterable, Identifiable {
+        case grid = "Grid"
+        case list = "List"
+        
+        var id: String { self.rawValue }
+    }
+    
+    enum Theme: String, CaseIterable, Identifiable {
+        case system = "System"
+        case light = "Light"
+        case dark = "Dark"
+        
+        var id: String { self.rawValue }
+    }
+    
+    @Published var currentTheme: Theme = .system
+    
+    @Published var displayType: DisplayType = .grid {
         didSet {
-            saveListOrGridView()
+            saveDisplayType()
         }
     }
     
@@ -22,11 +38,11 @@ final class DataManager: ObservableObject {
         }
     }
     
-    let listOrGridKey: String = "listOrGridView"
+    let displayTypeKey: String = "display_type"
     let soundsKey: String = "sounds_list"
     
     init() {
-        getListOrGridView()
+        getDisplayType()
         getSounds()
     }
     
@@ -65,11 +81,16 @@ final class DataManager: ObservableObject {
         }
     }
     
-    func getListOrGridView() {
-        isListView = UserDefaults.standard.bool(forKey: listOrGridKey)
+    func getDisplayType() {
+        if let savedValue = UserDefaults.standard.string(forKey: "displayType"),
+               let savedDisplayType = DisplayType(rawValue: savedValue) {
+                displayType = savedDisplayType
+            } else {
+                displayType = .grid
+            }
     }
     
-    func saveListOrGridView() {
-        UserDefaults.standard.set(isListView, forKey: listOrGridKey)
+    func saveDisplayType() {
+        UserDefaults.standard.set(displayType.rawValue, forKey: displayTypeKey)
     }
 }

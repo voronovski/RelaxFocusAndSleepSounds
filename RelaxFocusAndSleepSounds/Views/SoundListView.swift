@@ -19,7 +19,7 @@ struct SoundListView: View {
     
     var body: some View {
         NavigationView {
-            if dataManager.isListView {
+            if dataManager.displayType == .list {
                 List(Category.allCases, id: \.id) { category in
                     Section(header: Text(category.rawValue)) {
                         ForEach(dataManager.sounds.filter { $0.category == category }, id: \.id) { sound in

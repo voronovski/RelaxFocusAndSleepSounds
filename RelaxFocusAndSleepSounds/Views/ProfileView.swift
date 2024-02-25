@@ -16,15 +16,22 @@ struct ProfileView: View {
             List {
                 Section("Settings") {
                     HStack {
-                        Image(systemName: dataManager.isListView ? "checklist.unchecked" : "square.grid.3x3.fill")
+                        Image(systemName: dataManager.displayType == .list ? "checklist.unchecked" : "square.grid.3x3.fill")
                             .foregroundStyle(.accent)
-                        Picker("Display type", selection: $dataManager.isListView) {
-                            Text("Grid").tag(false)
-                            Text("List").tag(true)
+                        Picker("Display type", selection: $dataManager.displayType) {
+                            ForEach(DataManager.DisplayType.allCases) { type in
+                                Text(type.rawValue).tag(type)
+                            }
                         }
                     }
-                    NavigationLink(destination: AboutView()) {
-                        ProfileCellView(image: "circle.lefthalf.striped.horizontal", text: "Theme")
+                    HStack {
+                        Image(systemName: "circle.lefthalf.striped.horizontal")
+                            .foregroundStyle(.accent)
+                        Picker("Theme", selection: $dataManager.currentTheme) {
+                            ForEach(DataManager.Theme.allCases) { theme in
+                                Text(theme.rawValue).tag(theme)
+                            }
+                        }
                     }
                     NavigationLink(destination: AboutView()) {
                         ProfileCellView(image: "character.ja", text: "Language")
@@ -44,7 +51,7 @@ struct ProfileView: View {
                     }
                 }
                 .headerProminence(.increased)
-
+                
                 NavigationLink(destination: AboutView()) {
                     ProfileCellView(image: "info.circle", text: "About")
                 }

@@ -19,7 +19,7 @@ struct FavoritesListView: View {
     
     var body: some View {
         NavigationView {
-            if dataManager.isListView {
+            if dataManager.displayType == .list {
                 List(dataManager.sounds.filter { $0.isFavorite }, id: \.id) { sound in
                     CellView(sound: sound)
                 }
