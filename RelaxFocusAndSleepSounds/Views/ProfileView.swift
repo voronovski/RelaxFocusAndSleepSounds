@@ -19,8 +19,8 @@ struct ProfileView: View {
                         Image(systemName: dataManager.isListView ? "checklist.unchecked" : "square.grid.3x3.fill")
                             .foregroundStyle(.accent)
                         Picker("Display type", selection: $dataManager.isListView) {
-                            Text("Grid")
-                            Text("List")
+                            Text("Grid").tag(false)
+                            Text("List").tag(true)
                         }
                     }
                     NavigationLink(destination: AboutView()) {
@@ -50,8 +50,6 @@ struct ProfileView: View {
                 }
             }
             .navigationTitle("Profile")
-//            .listStyle(.inset)
-            
         }
     }
 }
