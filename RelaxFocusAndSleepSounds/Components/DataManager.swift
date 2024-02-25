@@ -10,11 +10,11 @@ import Foundation
 final class DataManager: ObservableObject {
     
     @Published var isListView: Bool = true 
-//    {
-//        didSet {
-//            saveListOrGridView()
-//        }
-//    }
+    {
+        didSet {
+            saveListOrGridView()
+        }
+    }
     
     @Published var sounds: [Sound] = [] {
         didSet {
@@ -22,10 +22,11 @@ final class DataManager: ObservableObject {
         }
     }
     
-//    let listOrGridKey: String = "listOrGridView"
+    let listOrGridKey: String = "listOrGridView"
     let soundsKey: String = "sounds_list"
     
     init() {
+        getListOrGridView()
         getSounds()
     }
     
@@ -46,10 +47,10 @@ final class DataManager: ObservableObject {
                 Sound(category: .vacuumCleaners, name: "Modern vacuum cleaner", fileName: "vc05", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Robot vacuum cleaner", fileName: "vc06", isFavorite: false),
             ]
-            sounds.append(contentsOf: initialSounds)
+            sounds = initialSounds
             return
         }
-        self.sounds = savedSounds
+        sounds = savedSounds
     }
     
     func toggleFavorite(sound: Sound) {
@@ -64,9 +65,11 @@ final class DataManager: ObservableObject {
         }
     }
     
-//    func saveListOrGridView() {
-//        if let encodedData = try? JSONEncoder().encode(sounds) {
-//            UserDefaults.standard.set(encodedData, forKey: listOrGridKey)
-//        }
-//    }
+    func getListOrGridView() {
+        isListView = UserDefaults.standard.bool(forKey: listOrGridKey)
+    }
+    
+    func saveListOrGridView() {
+        UserDefaults.standard.set(isListView, forKey: listOrGridKey)
+    }
 }
