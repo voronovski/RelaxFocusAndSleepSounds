@@ -20,7 +20,7 @@ struct RelaxFocusAndSleepSoundsApp: App {
             if isShowingSplash {
                 SplashScreenView()
                     .onAppear {
-                        DispatchQueue.main.asyncAfter(deadline: .now()) {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                             isShowingSplash = false
                         }
                     }
