@@ -8,9 +8,9 @@
 import Foundation
 
 enum Category: String, CaseIterable, Identifiable, Codable {
-    case electricShavers = "Electric shavers"
     case hairDryers = "Hair dryers"
     case vacuumCleaners = "Vacuum cleaners"
+    case electricShavers = "Electric shavers"
     
     var id: String { self.rawValue }
 }

@@ -52,10 +52,7 @@ final class DataManager: ObservableObject {
             let savedSounds = try? JSONDecoder().decode([Sound].self, from: data)
         else {
             let initialSounds = [
-                Sound(category: .electricShavers, name: "Small old electric shaver", fileName: "es01", isFavorite: true),
-                Sound(category: .electricShavers, name: "Electric razor", fileName: "es02", isFavorite: false),
-                Sound(category: .electricShavers, name: "ASMR Barbershop", fileName: "es03", isFavorite: false),
-                Sound(category: .hairDryers, name: "Standard hotel dryer", fileName: "hd01", isFavorite: false),
+                Sound(category: .hairDryers, name: "Standard hotel dryer", fileName: "hd01", isFavorite: true),
                 Sound(category: .hairDryers, name: "Old fashion dryer", fileName: "hd02", isFavorite: false),
                 Sound(category: .hairDryers, name: "Modern one", fileName: "hd03", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "American vacuum cleaner", fileName: "vc01", isFavorite: false),
@@ -63,7 +60,10 @@ final class DataManager: ObservableObject {
                 Sound(category: .vacuumCleaners, name: "Ghosty vacuum", fileName: "vc03", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Next room vacuum", fileName: "vc04", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Modern vacuum cleaner", fileName: "vc05", isFavorite: false),
-                Sound(category: .vacuumCleaners, name: "Robot vacuum cleaner", fileName: "vc06", isFavorite: false),
+                Sound(category: .vacuumCleaners, name: "Robot vacuum cleaner", fileName: "vc06", isFavorite: true),
+                Sound(category: .electricShavers, name: "Small old electric shaver", fileName: "es01", isFavorite: true),
+                Sound(category: .electricShavers, name: "Electric razor", fileName: "es02", isFavorite: false),
+                Sound(category: .electricShavers, name: "ASMR Barbershop", fileName: "es03", isFavorite: false),
             ]
             sounds = initialSounds
             return
