@@ -84,7 +84,7 @@ final class DataManager: ObservableObject {
     }
     
     func getDisplayType() {
-        if let savedValue = UserDefaults.standard.string(forKey: "displayType"),
+        if let savedValue = UserDefaults.standard.string(forKey: displayTypeKey),
                let savedDisplayType = DisplayType(rawValue: savedValue) {
                 displayType = savedDisplayType
             } else {
