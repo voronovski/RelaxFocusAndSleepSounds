@@ -39,7 +39,6 @@ struct FavoritesListView: View {
                 }
             } else {
                 if dataManager.sounds.filter({ $0.isFavorite }).isEmpty {
-                    // Placeholder view for the grid display
                     VStack {
                         Image(systemName: "heart.text.square")
                             .font(.system(size: 100))
