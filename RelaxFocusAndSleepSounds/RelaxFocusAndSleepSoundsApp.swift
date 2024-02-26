@@ -13,16 +13,22 @@ struct RelaxFocusAndSleepSoundsApp: App {
     @StateObject var dataManager = DataManager()
     @StateObject var audioManager = AudioManager()
     
-//    @StateObject var sharedData = SharedData(
-//        audioManager: AudioManager(),
-//        dataManager: DataManager()
-//    )
+    @State private var isShowingSplash = true
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(dataManager)
-                .environmentObject(audioManager)
+            if isShowingSplash {
+                SplashScreenView()
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now()) {
+                            isShowingSplash = false
+                        }
+                    }
+            } else {
+                ContentView()
+                    .environmentObject(dataManager)
+                    .environmentObject(audioManager)
+            }
         }
     }
 }

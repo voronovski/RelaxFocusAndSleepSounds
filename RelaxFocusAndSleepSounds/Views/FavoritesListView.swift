@@ -22,11 +22,18 @@ struct FavoritesListView: View {
             if dataManager.displayType == .list {
                 if dataManager.sounds.filter({ $0.isFavorite }).isEmpty {
                     VStack {
-                        Image(systemName: "heart.fill")
+                        Image(systemName: "heart.text.square")
                             .font(.system(size: 100))
-                            .foregroundColor(.gray)
+                            .foregroundStyle(.accent)
                             .padding()
-                        Text("Your Favorites list is empty now")
+                        VStack {
+                            Text("Your Favorites is empty now.")
+                                .font(.headline)
+                            Text("Just click on the heart icon on the liked sound to add to your favorites.")
+                                .font(.caption)
+                        }
+                        .frame(width: 250)
+                        .multilineTextAlignment(.center)
                     }
                 } else {
                     List(dataManager.sounds.filter { $0.isFavorite }, id: \.id) { sound in

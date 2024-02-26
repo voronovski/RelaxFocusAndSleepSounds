@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AboutView: View {
     var body: some View {
-        Image("AppImage")
+        Image("Icon")
             .resizable()
             .frame(width: 120, height: 120  )
             .cornerRadius(20)
