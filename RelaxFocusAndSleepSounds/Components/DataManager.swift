@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 final class DataManager: ObservableObject {
     
@@ -24,7 +25,11 @@ final class DataManager: ObservableObject {
         var id: String { self.rawValue }
     }
     
-    @Published var currentTheme: Theme = .system
+    @Published var currentTheme: Theme = .system {
+        didSet {
+            saveTheme()
+        }
+    }
     
     @Published var displayType: DisplayType = .grid {
         didSet {
@@ -38,10 +43,12 @@ final class DataManager: ObservableObject {
         }
     }
     
+    let themeKey: String = "theme_key"
     let displayTypeKey: String = "display_type"
     let soundsKey: String = "sounds_list"
     
     init() {
+        getTheme()
         getDisplayType()
         getSounds()
     }
@@ -85,14 +92,43 @@ final class DataManager: ObservableObject {
     
     func getDisplayType() {
         if let savedValue = UserDefaults.standard.string(forKey: displayTypeKey),
-               let savedDisplayType = DisplayType(rawValue: savedValue) {
-                displayType = savedDisplayType
-            } else {
-                displayType = .grid
-            }
+           let savedDisplayType = DisplayType(rawValue: savedValue) {
+            displayType = savedDisplayType
+        } else {
+            displayType = .grid
+        }
     }
     
     func saveDisplayType() {
         UserDefaults.standard.set(displayType.rawValue, forKey: displayTypeKey)
+    }
+    
+    func getTheme() {
+        if let savedValue = UserDefaults.standard.string(forKey: themeKey),
+           let savedTheme = Theme(rawValue: savedValue) {
+            currentTheme = savedTheme
+        } else {
+            currentTheme = .system
+        }
+    }
+    
+    func saveTheme() {
+        UserDefaults.standard.set(currentTheme.rawValue, forKey: themeKey)
+    }
+    
+    func applyTheme(_ theme: Theme) {
+        DispatchQueue.main.async {
+            guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return }
+            windowScene.windows.forEach { window in
+                switch theme {
+                case .system:
+                    window.overrideUserInterfaceStyle = .unspecified
+                case .light:
+                    window.overrideUserInterfaceStyle = .light
+                case .dark:
+                    window.overrideUserInterfaceStyle = .dark
+                }
+            }
+        }
     }
 }

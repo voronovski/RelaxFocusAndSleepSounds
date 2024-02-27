@@ -28,6 +28,12 @@ struct RelaxFocusAndSleepSoundsApp: App {
                 ContentView()
                     .environmentObject(dataManager)
                     .environmentObject(audioManager)
+                    .onAppear {
+                        dataManager.applyTheme(dataManager.currentTheme)
+                    }
+                    .onChange(of: dataManager.currentTheme) { newTheme in
+                        dataManager.applyTheme(newTheme)
+                    }
             }
         }
     }
