@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct AboutView: View {
+    
+    let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
+
+    
     var body: some View {
         Image("Icon")
             .resizable()
@@ -19,7 +23,7 @@ struct AboutView: View {
         }
         .font(.headline)
         .padding()
-        Text("Version: 1.0")
+        Text("Version: \(appVersion)")
             .font(.subheadline)
     }
 }

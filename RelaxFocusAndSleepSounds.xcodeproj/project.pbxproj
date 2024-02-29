@@ -17,6 +17,7 @@
 		FA2F1A6D2B54B27700C37E06 /* vc03.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A652B54B27700C37E06 /* vc03.m4a */; };
 		FA2F1A6E2B54B27700C37E06 /* vc02.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA2F1A662B54B27700C37E06 /* vc02.m4a */; };
 		FA2F1A702B55191C00C37E06 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F1A6F2B55191C00C37E06 /* AudioManager.swift */; };
+		FA3CBCAF2B904FB4006B63F4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = FA3CBCAE2B904FB4006B63F4 /* Localizable.xcstrings */; };
 		FA4F4F622B8C0386000A1D9C /* es02.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA4F4F602B8C0386000A1D9C /* es02.m4a */; };
 		FA4F4F652B8C0A16000A1D9C /* es03.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA4F4F642B8C0A16000A1D9C /* es03.m4a */; };
 		FA9C5E422B89E8480069708E /* GridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C5E412B89E8480069708E /* GridCellView.swift */; };
@@ -49,6 +50,7 @@
 		FA2F1A652B54B27700C37E06 /* vc03.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc03.m4a; sourceTree = "<group>"; };
 		FA2F1A662B54B27700C37E06 /* vc02.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc02.m4a; sourceTree = "<group>"; };
 		FA2F1A6F2B55191C00C37E06 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		FA3CBCAE2B904FB4006B63F4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		FA4F4F602B8C0386000A1D9C /* es02.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = es02.m4a; sourceTree = "<group>"; };
 		FA4F4F642B8C0A16000A1D9C /* es03.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = es03.m4a; sourceTree = "<group>"; };
 		FA9C5E412B89E8480069708E /* GridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */,
 				FAE92CE22B4BFEE100A53E1A /* Sounds */,
 				FAC6A5062B4BF7030064EEC2 /* Preview Content */,
+				FA3CBCAE2B904FB4006B63F4 /* Localizable.xcstrings */,
 			);
 			path = RelaxFocusAndSleepSounds;
 			sourceTree = "<group>";
@@ -225,7 +228,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				ru,
 			);
 			mainGroup = FAC6A4F42B4BF7020064EEC2;
 			productRefGroup = FAC6A4FE2B4BF7020064EEC2 /* Products */;
@@ -253,6 +256,7 @@
 				FA9C5E462B8B31B70069708E /* vc06.m4a in Resources */,
 				FA4F4F652B8C0A16000A1D9C /* es03.m4a in Resources */,
 				FA2F1A6B2B54B27700C37E06 /* vc04.m4a in Resources */,
+				FA3CBCAF2B904FB4006B63F4 /* Localizable.xcstrings in Resources */,
 				FA2F1A692B54B27700C37E06 /* hd02.m4a in Resources */,
 				FAC6A5052B4BF7030064EEC2 /* Assets.xcassets in Resources */,
 				FA2F1A6C2B54B27700C37E06 /* hd03.m4a in Resources */,

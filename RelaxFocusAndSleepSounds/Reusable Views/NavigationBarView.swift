@@ -26,7 +26,7 @@ struct NavigationBarView: View {
                 .default(Text("30 minutes")) { audioManager.setTimer(loops: 1) },
                 .default(Text("45 minutes")) { audioManager.setTimer(loops: 2) },
                 .default(Text("1 hour")) { audioManager.setTimer(loops: 3) },
-                .default(Text("2 hour")) { audioManager.setTimer(loops: 7) },
+                .default(Text("2 hours")) { audioManager.setTimer(loops: 7) },
                 .cancel()
             ])
         }
