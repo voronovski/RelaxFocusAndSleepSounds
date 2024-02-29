@@ -41,7 +41,7 @@ struct ProfileView: View {
                 
                 Section("Social") {
                     NavigationLink(destination: AboutView()) {
-                        ProfileCellView(image: "envelope", text: "Write to me")
+                        ProfileCellView(image: "envelope", text: "Give a feedback")
                     }
                     NavigationLink(destination: AboutView()) {
                         ProfileCellView(image: "star", text: "Rate app")

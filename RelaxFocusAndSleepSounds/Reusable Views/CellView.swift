@@ -17,19 +17,23 @@ struct CellView: View {
     
     var body: some View {
         HStack {
-            Image(sound.fileName)
-                .resizable()
-                .scaledToFill()
-                .frame(width: 50, height: 50)
-                .clipShape(Circle())
-                .overlay(Circle().stroke(Color.strokeColorSet, lineWidth: 3))
-                .shadow(radius: 10)
-                .padding(.trailing, 10)
-            Text(sound.name)
-                .onTapGesture(count: 1) {
-                    audioManager.startPlayer(sound: sound.fileName)
-                }
+            HStack {
+                Image(sound.fileName)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 50, height: 50)
+                    .clipShape(Circle())
+                    .overlay(Circle().stroke(Color.strokeColorSet, lineWidth: 3))
+                    .shadow(radius: 10)
+                    .padding(.trailing, 10)
+                Text(sound.name)
+            }
+            .onTapGesture(count: 1) {
+                audioManager.startPlayer(sound: sound.fileName)
+            }
+            
             Spacer()
+            
             Image(systemName: sound.isFavorite ? "heart.fill" : "heart")
                 .onTapGesture {
                     withAnimation {

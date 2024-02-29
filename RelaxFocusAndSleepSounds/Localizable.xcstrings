@@ -41,6 +41,16 @@
         }
       }
     },
+    "About" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О приложении"
+          }
+        }
+      }
+    },
     "App created by Alex Voronovski," : {
       "localizations" : {
         "ru" : {
@@ -81,12 +91,42 @@
         }
       }
     },
+    "Give a feedback" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обратная связь"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        }
+      }
+    },
     "Profile" : {
       "localizations" : {
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Профиль"
+          }
+        }
+      }
+    },
+    "Rate app" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оценить приложение"
           }
         }
       }
@@ -137,6 +177,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тапни по иконке сердца для добавления звука в Избранное."
+          }
+        }
+      }
+    },
+    "Tell your friends" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рассказать друзьям"
           }
         }
       }

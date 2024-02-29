@@ -10,7 +10,7 @@ import SwiftUI
 struct ProfileCellView: View {
     
     var image: String
-    var text: String
+    var text: LocalizedStringKey
     
     var body: some View {
         HStack {
