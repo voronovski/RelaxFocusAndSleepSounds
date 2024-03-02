@@ -21,7 +21,7 @@ struct SoundListView: View {
         NavigationView {
             if dataManager.displayType == .list {
                 List(Category.allCases, id: \.id) { category in
-                    Section(header: Text(category.rawValue)) {
+                    Section(header: Text(category.title)) {
                         ForEach(dataManager.sounds.filter { $0.category == category }, id: \.id) { sound in
                             CellView(sound: sound)
                         }
@@ -36,7 +36,7 @@ struct SoundListView: View {
                 ScrollView {
                     ForEach(Category.allCases, id: \.id) { category in
                         VStack(alignment: .leading) {
-                            Text(category.rawValue)
+                            Text(category.title)
                                 .font(.headline)
                             
                             LazyVGrid(columns: columns) {

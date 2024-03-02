@@ -13,6 +13,14 @@ enum Category: String, CaseIterable, Identifiable, Codable {
     case electricShavers = "Electric shavers"
     
     var id: String { self.rawValue }
+    
+    var title: LocalizedStringResource {
+        switch self {
+            case .hairDryers: "Hair dryers"
+            case .vacuumCleaners: "Vacuum cleaners"
+            case .electricShavers: "Electric shavers"
+        }
+    }
 }
 
 // MARK: Immutable Struct

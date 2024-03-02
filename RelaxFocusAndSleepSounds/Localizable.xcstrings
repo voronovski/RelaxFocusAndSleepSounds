@@ -51,12 +51,12 @@
         }
       }
     },
-    "App created by Alex Voronovski," : {
+    "App created by Alex Voronovski, thanks for using!" : {
       "localizations" : {
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Приложение создано Алексом Вороновским,"
+            "value" : "Приложение создано Алексом Вороновским, спасибо за использование!"
           }
         }
       }
@@ -71,12 +71,32 @@
         }
       }
     },
+    "Dark" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Темная"
+          }
+        }
+      }
+    },
     "Display type" : {
       "localizations" : {
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тип отображения"
+          }
+        }
+      }
+    },
+    "Electric shavers" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Электробритвы"
           }
         }
       }
@@ -101,12 +121,63 @@
         }
       }
     },
+    "Grid" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сетка"
+          }
+        }
+      }
+    },
+    "Hair dryers" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фены"
+          }
+        }
+      }
+    },
+    "Hotel" : {
+      "comment" : "Hotel sound",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отельный"
+          }
+        }
+      }
+    },
     "Language" : {
       "localizations" : {
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Language"
+          }
+        }
+      }
+    },
+    "Light" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Светлая"
+          }
+        }
+      }
+    },
+    "List" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лист"
           }
         }
       }
@@ -171,6 +242,16 @@
         }
       }
     },
+    "System" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Системная"
+          }
+        }
+      }
+    },
     "Tap on the heart icon on the liked sound to add to your favorites." : {
       "localizations" : {
         "ru" : {
@@ -191,22 +272,22 @@
         }
       }
     },
-    "thanks for using!" : {
-      "localizations" : {
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "спасибо за использование!"
-          }
-        }
-      }
-    },
     "Theme" : {
       "localizations" : {
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тема оформления"
+          }
+        }
+      }
+    },
+    "Vacuum cleaners" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пылесосы"
           }
         }
       }

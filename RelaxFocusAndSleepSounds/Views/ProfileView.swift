@@ -20,7 +20,7 @@ struct ProfileView: View {
                             .foregroundStyle(.accent)
                         Picker("Display type", selection: $dataManager.displayType) {
                             ForEach(DataManager.DisplayType.allCases) { type in
-                                Text(type.rawValue).tag(type)
+                                Text(type.title).tag(type)
                             }
                         }
                     }
@@ -29,7 +29,7 @@ struct ProfileView: View {
                             .foregroundStyle(.accent)
                         Picker("Theme", selection: $dataManager.currentTheme) {
                             ForEach(DataManager.Theme.allCases) { theme in
-                                Text(theme.rawValue).tag(theme)
+                                Text(theme.title).tag(theme)
                             }
                         }
                     }

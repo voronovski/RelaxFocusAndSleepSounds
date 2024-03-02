@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import UIKit
+import SwiftUI
 
 final class DataManager: ObservableObject {
     
@@ -15,6 +15,13 @@ final class DataManager: ObservableObject {
         case list = "List"
         
         var id: String { self.rawValue }
+        
+        var title: LocalizedStringResource {
+            switch self {
+                case .grid: "Grid"
+                case .list: "List"
+            }
+        }
     }
     
     enum Theme: String, CaseIterable, Identifiable {
@@ -23,6 +30,14 @@ final class DataManager: ObservableObject {
         case dark = "Dark"
         
         var id: String { self.rawValue }
+        
+        var title: LocalizedStringResource {
+            switch self {
+                case .system: "System"
+                case .light: "Light"
+                case .dark: "Dark"
+            }
+        }
     }
     
     @Published var currentTheme: Theme = .system {
