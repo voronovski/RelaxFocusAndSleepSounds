@@ -21,6 +21,7 @@ struct AboutView: View {
             Text("App created by Alex Voronovski,")
             Text("thanks for using!")                
         }
+        .multilineTextAlignment(.center)
         .font(.headline)
         .padding()
         Text("Version: \(appVersion)")
