@@ -32,6 +32,7 @@
 		FAC6A5032B4BF7020064EEC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6A5022B4BF7020064EEC2 /* ContentView.swift */; };
 		FAC6A5052B4BF7030064EEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */; };
 		FAC6A5082B4BF7030064EEC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6A5072B4BF7030064EEC2 /* Preview Assets.xcassets */; };
+		FAC7A90B2B92F4BC00C2338F /* infoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A90A2B92F4BC00C2338F /* infoPlist.xcstrings */; };
 		FAC80DD32B78BD78006DB7C5 /* vc05.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FAC80DD22B78BD78006DB7C5 /* vc05.m4a */; };
 		FACDEF622B67A955007E6C6A /* FavoritesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDEF612B67A955007E6C6A /* FavoritesListView.swift */; };
 		FACDEF642B6CCA6D007E6C6A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDEF632B6CCA6D007E6C6A /* DataManager.swift */; };
@@ -66,6 +67,7 @@
 		FAC6A5022B4BF7020064EEC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAC6A5042B4BF7030064EEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC6A5072B4BF7030064EEC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAC7A90A2B92F4BC00C2338F /* infoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = infoPlist.xcstrings; sourceTree = "<group>"; };
 		FAC80DD22B78BD78006DB7C5 /* vc05.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vc05.m4a; sourceTree = "<group>"; };
 		FACDEF612B67A955007E6C6A /* FavoritesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListView.swift; sourceTree = "<group>"; };
 		FACDEF632B6CCA6D007E6C6A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				FAE92CE22B4BFEE100A53E1A /* Sounds */,
 				FAC6A5062B4BF7030064EEC2 /* Preview Content */,
 				FA3CBCAE2B904FB4006B63F4 /* Localizable.xcstrings */,
+				FAC7A90A2B92F4BC00C2338F /* infoPlist.xcstrings */,
 			);
 			path = RelaxFocusAndSleepSounds;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				FA3CBCAF2B904FB4006B63F4 /* Localizable.xcstrings in Resources */,
 				FA2F1A692B54B27700C37E06 /* hd02.m4a in Resources */,
 				FAC6A5052B4BF7030064EEC2 /* Assets.xcassets in Resources */,
+				FAC7A90B2B92F4BC00C2338F /* infoPlist.xcstrings in Resources */,
 				FA2F1A6C2B54B27700C37E06 /* hd03.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
