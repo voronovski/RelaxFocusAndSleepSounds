@@ -15,7 +15,7 @@ struct AboutView: View {
     var body: some View {
         Image("Icon")
             .resizable()
-            .frame(width: 120, height: 120  )
+            .frame(width: 150, height: 150)
             .cornerRadius(20)
         Text("App created by Alex Voronovski, thanks for using!")
             .multilineTextAlignment(.center)
