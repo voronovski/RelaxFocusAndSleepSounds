@@ -83,7 +83,7 @@ final class DataManager: ObservableObject {
                 Sound(category: .vacuumCleaners, name: "Next room", fileName: "vc04", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Modern", fileName: "vc05", isFavorite: false),
                 Sound(category: .vacuumCleaners, name: "Robot", fileName: "vc06", isFavorite: false),
-                Sound(category: .electricShavers, name: "Old fashion", fileName: "es01", isFavorite: false),
+                Sound(category: .electricShavers, name: "Old electric shaver", fileName: "es01", isFavorite: false),
                 Sound(category: .electricShavers, name: "Electric razor", fileName: "es02", isFavorite: false),
                 Sound(category: .electricShavers, name: "ASMR Barbershop", fileName: "es03", isFavorite: false),
             ]

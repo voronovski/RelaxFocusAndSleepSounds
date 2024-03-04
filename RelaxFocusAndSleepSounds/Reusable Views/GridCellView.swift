@@ -46,6 +46,6 @@ struct GridCellView: View {
 }
 
 #Preview {
-    GridCellView(sound: Sound(category: .electricShavers, name: "Small old electric shaver", fileName: "es01", isFavorite: true))
+    GridCellView(sound: Sound(category: .electricShavers, name: "Old electric shaver", fileName: "es01", isFavorite: true))
         .environmentObject(AudioManager())
 }

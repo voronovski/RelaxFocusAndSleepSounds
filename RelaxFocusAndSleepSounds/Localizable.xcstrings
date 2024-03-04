@@ -241,6 +241,16 @@
         }
       }
     },
+    "Old electric shaver" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Старая электробритва"
+          }
+        }
+      }
+    },
     "Old fashion" : {
       "localizations" : {
         "ru" : {
@@ -307,16 +317,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки"
-          }
-        }
-      }
-    },
-    "Small old electric shaver" : {
-      "localizations" : {
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Старая электробритва"
           }
         }
       }

@@ -46,6 +46,6 @@ struct CellView: View {
 }
 
 #Preview {
-    CellView(sound: Sound(category: .electricShavers, name: "Small old electric shaver", fileName: "es01", isFavorite: true))
+    CellView(sound: Sound(category: .electricShavers, name: "Old electric shaver", fileName: "es01", isFavorite: true))
         .environmentObject(AudioManager())
 }
