@@ -28,11 +28,11 @@ enum Category: String, CaseIterable, Identifiable, Codable {
 struct Sound: Identifiable, Codable {
     let id: UUID
     let category: Category
-    let name: String
+    let name: LocalizedStringResource
     let fileName: String
     let isFavorite: Bool
     
-    init(id: UUID = UUID(), category: Category, name: String, fileName: String, isFavorite: Bool) {
+    init(id: UUID = UUID(), category: Category, name: LocalizedStringResource, fileName: String, isFavorite: Bool) {
         self.id = id
         self.category = category
         self.name = name

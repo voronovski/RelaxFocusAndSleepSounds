@@ -51,12 +51,32 @@
         }
       }
     },
+    "American" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Американский"
+          }
+        }
+      }
+    },
     "App created by Alex Voronovski, thanks for using!" : {
       "localizations" : {
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приложение создано Алексом Вороновским, спасибо за использование!"
+          }
+        }
+      }
+    },
+    "ASMR Barbershop" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Барбершоп"
           }
         }
       }
@@ -91,6 +111,16 @@
         }
       }
     },
+    "Electric razor" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Машинка для стрижки"
+          }
+        }
+      }
+    },
     "Electric shavers" : {
       "localizations" : {
         "ru" : {
@@ -107,6 +137,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Избранное"
+          }
+        }
+      }
+    },
+    "Ghosty" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Призрачный"
           }
         }
       }
@@ -142,7 +182,6 @@
       }
     },
     "Hotel" : {
-      "comment" : "Hotel sound",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -182,6 +221,46 @@
         }
       }
     },
+    "Modern" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Современный"
+          }
+        }
+      }
+    },
+    "Next room" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В другой комнате"
+          }
+        }
+      }
+    },
+    "Old fashion" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Старый пылесос"
+          }
+        }
+      }
+    },
+    "Portable" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Портативный"
+          }
+        }
+      }
+    },
     "Profile" : {
       "localizations" : {
         "ru" : {
@@ -202,6 +281,16 @@
         }
       }
     },
+    "Robot" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Робот"
+          }
+        }
+      }
+    },
     "Set a timer" : {
       "localizations" : {
         "ru" : {
@@ -218,6 +307,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки"
+          }
+        }
+      }
+    },
+    "Small old electric shaver" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Старая электробритва"
           }
         }
       }
