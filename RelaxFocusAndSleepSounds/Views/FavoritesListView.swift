@@ -29,7 +29,7 @@ struct FavoritesListView: View {
                         VStack {
                             Text("Your Favorites is empty now.")
                                 .font(.headline)
-                            Text("Tap on the heart icon on the liked sound to add to your favorites.")
+                            Text("Tap on the heart icon on the liked sound to add to your Favorites.")
                                 .font(.caption)
                         }
                         .frame(width: 250)
@@ -54,7 +54,7 @@ struct FavoritesListView: View {
                         VStack {
                             Text("Your Favorites is empty now.")
                                 .font(.headline)
-                            Text("Tap on the heart icon on the liked sound to add to your favorites.")
+                            Text("Tap on the heart icon on the liked sound to add to your Favorites.")
                                 .font(.caption)
                         }
                         .frame(width: 250)
