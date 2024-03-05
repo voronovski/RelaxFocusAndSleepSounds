@@ -229,6 +229,14 @@
 			knownRegions = (
 				en,
 				ru,
+				"es-419",
+				de,
+				uk,
+				hi,
+				fr,
+				"zh-Hans",
+				"pt-PT",
+				ar,
 			);
 			mainGroup = FAC6A4F42B4BF7020064EEC2;
 			productRefGroup = FAC6A4FE2B4BF7020064EEC2 /* Products */;
