@@ -40,8 +40,17 @@ struct ProfileView: View {
                 .headerProminence(.increased)
                 
                 Section("Social") {
-                    NavigationLink(destination: AboutView()) {
-                        ProfileCellView(image: "envelope", text: "Give a feedback")
+                    Button(action: dataManager.sendEmail) {
+                        HStack {
+                            Image(systemName: "envelope")
+                            Text("Give a feedback")
+                                .foregroundStyle(.foreground)
+                            Spacer()
+                            Image(systemName: "chevron.forward")
+                                .font(.system(size: UIFont.systemFontSize, weight: .semibold))
+                                .foregroundStyle(.gray)
+                                .opacity(0.6)
+                        }
                     }
                     NavigationLink(destination: AboutView()) {
                         ProfileCellView(image: "star", text: "Rate app")

@@ -18,8 +18,8 @@ final class DataManager: ObservableObject {
         
         var title: LocalizedStringResource {
             switch self {
-                case .grid: "Grid"
-                case .list: "List"
+            case .grid: "Grid"
+            case .list: "List"
             }
         }
     }
@@ -33,9 +33,9 @@ final class DataManager: ObservableObject {
         
         var title: LocalizedStringResource {
             switch self {
-                case .system: "System"
-                case .light: "Light"
-                case .dark: "Dark"
+            case .system: "System"
+            case .light: "Light"
+            case .dark: "Dark"
             }
         }
     }
@@ -143,6 +143,19 @@ final class DataManager: ObservableObject {
                 case .dark:
                     window.overrideUserInterfaceStyle = .dark
                 }
+            }
+        }
+    }
+    
+    func sendEmail() {
+        let iOSVersion = UIDevice.current.systemVersion
+        let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "Unknown"
+        
+        let emailBody = "Tape your feedback here\n\nnOS: \(iOSVersion)\nVersion: \(appVersion)"
+        
+        if let url = URL(string: "mailto:voronovski@outlook.com?subject=Relax, Focus and Better Sleep Sounds: Feedback&body=\(emailBody)") {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url)
             }
         }
     }
