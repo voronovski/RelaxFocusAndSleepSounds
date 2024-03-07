@@ -3,6 +3,12 @@
   "strings" : {
     "1 hour" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ساعة"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19,6 +25,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 heure"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 घंटा"
           }
         },
         "pt-PT" : {
@@ -38,11 +50,23 @@
             "state" : "translated",
             "value" : "1 година"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1小时"
+          }
         }
       }
     },
     "2 hours" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 ساعات"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 heures"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 घंटे"
           }
         },
         "pt-PT" : {
@@ -78,11 +108,23 @@
             "state" : "translated",
             "value" : "2 години"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2小时"
+          }
         }
       }
     },
     "30 minutes" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 دقيقة"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -99,6 +141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 minutes"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 मिनट"
           }
         },
         "pt-PT" : {
@@ -118,11 +166,23 @@
             "state" : "translated",
             "value" : "30 хвилин"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30分钟"
+          }
         }
       }
     },
     "45 minutes" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "45 دقيقة"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -139,6 +199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "45 minutes"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "45 मिनट"
           }
         },
         "pt-PT" : {
@@ -158,11 +224,23 @@
             "state" : "translated",
             "value" : "45 хвилин"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "45分钟"
+          }
         }
       }
     },
     "About" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حول"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -179,6 +257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À propos"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "के बारे में"
           }
         },
         "pt-PT" : {
@@ -198,11 +282,23 @@
             "state" : "translated",
             "value" : "Про"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于"
+          }
         }
       }
     },
     "American" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أمريكي"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -219,6 +315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Américain"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अमेरिकी"
           }
         },
         "pt-PT" : {
@@ -238,11 +340,23 @@
             "state" : "translated",
             "value" : "Американський"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美国的"
+          }
         }
       }
     },
     "App created by Alex Voronovski, thanks for using!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التطبيق من تصميم أليكس فورونوفسكي، شكرًا لاستخدامكم!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -259,6 +373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Appli créée par Alex Voronovski, merci de l'utiliser !"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ऐप एलेक्स वोरोनोव्स्की द्वारा बनाया गया, इसका उपयोग करने के लिए धन्यवाद!"
           }
         },
         "pt-PT" : {
@@ -278,11 +398,23 @@
             "state" : "translated",
             "value" : "Додаток створений Алексом Вороновським, дякуємо за використання!"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由Alex Voronovski创建的应用，感谢您的使用！"
+          }
         }
       }
     },
     "ASMR Barbershop" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حلاقة ASMR"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -299,6 +431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barbier ASMR"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "एएसएमआर नाई की दुकान"
           }
         },
         "pt-PT" : {
@@ -318,11 +456,23 @@
             "state" : "translated",
             "value" : "АСМР Барбершоп"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASMR理发店"
+          }
         }
       }
     },
     "By default sound will play 15 min." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بشكل افتراضي، سيتم تشغيل الصوت لمدة 15 دقيقة."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -339,6 +489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Par défaut, le son jouera 15 min."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "डिफ़ॉल्ट रूप से ध्वनि 15 मिनट तक बजेगी।"
           }
         },
         "pt-PT" : {
@@ -358,11 +514,23 @@
             "state" : "translated",
             "value" : "За замовчуванням звук гратиме 15 хв."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "默认情况下，声音将播放15分钟。"
+          }
         }
       }
     },
     "Dark" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داكن"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -379,6 +547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sombre"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "डार्क"
           }
         },
         "pt-PT" : {
@@ -398,11 +572,23 @@
             "state" : "translated",
             "value" : "Темна"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黑暗"
+          }
         }
       }
     },
     "Display type" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نوع العرض"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -419,6 +605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Type d'affichage"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "डिस्प्ले प्रकार"
           }
         },
         "pt-PT" : {
@@ -438,11 +630,23 @@
             "state" : "translated",
             "value" : "Тип дисплею"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示类型"
+          }
         }
       }
     },
     "Electric razor" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماكينة حلاقة كهربائية"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -459,6 +663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rasoir électrique"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "डिस्प्ले प्रकार"
           }
         },
         "pt-PT" : {
@@ -478,11 +688,23 @@
             "state" : "translated",
             "value" : "Електробритва"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电动剃须刀"
+          }
         }
       }
     },
     "Electric shavers" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماكينات الحلاقة الكهربائية"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -499,6 +721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rasoirs électriques"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "इलेक्ट्रिक शेवर्स"
           }
         },
         "pt-PT" : {
@@ -518,11 +746,23 @@
             "state" : "translated",
             "value" : "Електробритви"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电动剃须刀"
+          }
         }
       }
     },
     "Favorites" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المفضلة"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -539,6 +779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favoris"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पसंदीदा"
           }
         },
         "pt-PT" : {
@@ -558,11 +804,23 @@
             "state" : "translated",
             "value" : "Вибране"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收藏夹"
+          }
         }
       }
     },
     "Ghosty" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شبحي"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -579,6 +837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fantômatique"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "भूतिया"
           }
         },
         "pt-PT" : {
@@ -598,11 +862,23 @@
             "state" : "translated",
             "value" : "Привид"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幽灵般的"
+          }
         }
       }
     },
     "Give a feedback" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعطاء ردود فعل"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -619,6 +895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Donner un retour"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "प्रतिक्रिया दें"
           }
         },
         "pt-PT" : {
@@ -638,11 +920,23 @@
             "state" : "translated",
             "value" : "Залиште відгук"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "给予反馈"
+          }
         }
       }
     },
     "Grid" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شبكة"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -659,6 +953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grille"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ग्रिड"
           }
         },
         "pt-PT" : {
@@ -678,11 +978,23 @@
             "state" : "translated",
             "value" : "Сітка"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网格"
+          }
         }
       }
     },
     "Hair dryers" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مجففات الشعر"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -699,6 +1011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sèche-cheveux"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "हेयर ड्रायर्स"
           }
         },
         "pt-PT" : {
@@ -718,11 +1036,23 @@
             "state" : "translated",
             "value" : "Фени"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "吹风机"
+          }
         }
       }
     },
     "Hotel" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فندقي"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -739,6 +1069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hôtel"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "होटल"
           }
         },
         "pt-PT" : {
@@ -758,33 +1094,51 @@
             "state" : "translated",
             "value" : "Готельний"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "酒店"
+          }
         }
       }
     },
     "Language" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sprache"
+            "value" : "Language"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Idioma"
+            "value" : "Language"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Langue"
+            "value" : "Language"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Idioma"
+            "value" : "Language"
           }
         },
         "ru" : {
@@ -796,13 +1150,25 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Мова"
+            "value" : "Language"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
           }
         }
       }
     },
     "Light" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فاتح"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -819,6 +1185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lumière"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "लाइट"
           }
         },
         "pt-PT" : {
@@ -838,11 +1210,23 @@
             "state" : "translated",
             "value" : "Світла"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光亮"
+          }
         }
       }
     },
     "List" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قائمة"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -859,6 +1243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liste"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सूची"
           }
         },
         "pt-PT" : {
@@ -878,11 +1268,23 @@
             "state" : "translated",
             "value" : "Список"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "列表"
+          }
         }
       }
     },
     "Modern" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حديث"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -899,6 +1301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moderne"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आधुनिक"
           }
         },
         "pt-PT" : {
@@ -918,11 +1326,23 @@
             "state" : "translated",
             "value" : "Сучасний"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "现代的"
+          }
         }
       }
     },
     "Next room" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في الغرفة المجاورة"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -939,6 +1359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dans la chambre d'à côté"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अगले कमरे में"
           }
         },
         "pt-PT" : {
@@ -958,11 +1384,23 @@
             "state" : "translated",
             "value" : "У наступній кімнаті"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隔壁房间"
+          }
         }
       }
     },
     "Old electric shaver" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماكينة حلاقة كهربائية قديمة"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -979,6 +1417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vieux rasoir électrique"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पुराना इलेक्ट्रिक शेवर"
           }
         },
         "pt-PT" : {
@@ -998,11 +1442,23 @@
             "state" : "translated",
             "value" : "Стара електробритва"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旧电动剃须刀"
+          }
         }
       }
     },
     "Old fashion" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طراز قديم"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1019,6 +1475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À l'ancienne"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पुराने फैशन का"
           }
         },
         "pt-PT" : {
@@ -1038,11 +1500,23 @@
             "state" : "translated",
             "value" : "Старомодний"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "老式的"
+          }
         }
       }
     },
     "Portable" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محمول"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1059,6 +1533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Portable"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पोर्टेबल"
           }
         },
         "pt-PT" : {
@@ -1078,11 +1558,23 @@
             "state" : "translated",
             "value" : "Портативний"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "便携式"
+          }
         }
       }
     },
     "Profile" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملف الشخصي"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1099,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profil"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "प्रोफाइल"
           }
         },
         "pt-PT" : {
@@ -1118,11 +1616,23 @@
             "state" : "translated",
             "value" : "Профіль"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "个人资料"
+          }
         }
       }
     },
     "Rate app" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقييم التطبيق"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1139,6 +1649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Évaluer l'appli"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ऐप रेट करें"
           }
         },
         "pt-PT" : {
@@ -1158,11 +1674,23 @@
             "state" : "translated",
             "value" : "Оцініть додаток"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "评价应用"
+          }
         }
       }
     },
     "Robot" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "روبوت"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1179,6 +1707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Robot"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "रोबोट"
           }
         },
         "pt-PT" : {
@@ -1198,11 +1732,23 @@
             "state" : "translated",
             "value" : "Робот"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "机器人"
+          }
         }
       }
     },
     "Set a timer" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضبط المؤقت"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1219,6 +1765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mettre un minuteur"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "एक टाइमर सेट करें"
           }
         },
         "pt-PT" : {
@@ -1238,11 +1790,23 @@
             "state" : "translated",
             "value" : "Встановити таймер"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置计时器"
+          }
         }
       }
     },
     "Settings" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإعдادات"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1259,6 +1823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paramètres"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सेटिंग्स"
           }
         },
         "pt-PT" : {
@@ -1278,11 +1848,23 @@
             "state" : "translated",
             "value" : "Налаштування"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
         }
       }
     },
     "Social" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اجتماعي"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1299,6 +1881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Social"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सामाजिक"
           }
         },
         "pt-PT" : {
@@ -1318,11 +1906,23 @@
             "state" : "translated",
             "value" : "Соціальний"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "社交"
+          }
         }
       }
     },
     "Sounds" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأصوات"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1339,6 +1939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sons"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ध्वनियाँ"
           }
         },
         "pt-PT" : {
@@ -1358,11 +1964,23 @@
             "state" : "translated",
             "value" : "Звуки"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "声音"
+          }
         }
       }
     },
     "System" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نظام"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1379,6 +1997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Système"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सिस्टम"
           }
         },
         "pt-PT" : {
@@ -1398,11 +2022,23 @@
             "state" : "translated",
             "value" : "Системний"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统"
+          }
         }
       }
     },
     "Tap on the heart icon on the liked sound to add to your Favorites." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط على أيقونة القلب على الصوت الذي أعجبك لإضافته إلى المفضلة."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1419,6 +2055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tapez sur l'icône de cœur sur le son que vous aimez pour l'ajouter à vos Favoris."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आपको पसंद आने वाली ध्वनि पर दिल के आइकन पर टैप करें ताकि उसे अपने पसंदीदा में जोड़ सकें।"
           }
         },
         "pt-PT" : {
@@ -1438,11 +2080,23 @@
             "state" : "translated",
             "value" : "Натисніть на іконку серця на подобається звуку, щоб додати його до Обраного."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点击你喜欢的声音上的心形图标，将其添加到你的收藏中。"
+          }
         }
       }
     },
     "Tell your friends" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أخبر أصدقاءك"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1459,6 +2113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dites-le à vos amis"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपने दोस्तों को बताएं"
           }
         },
         "pt-PT" : {
@@ -1478,11 +2138,23 @@
             "state" : "translated",
             "value" : "Розкажіть друзям"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "告诉你的朋友们"
+          }
         }
       }
     },
     "Theme" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الثيم"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1499,6 +2171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thème"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "थीम"
           }
         },
         "pt-PT" : {
@@ -1518,11 +2196,81 @@
             "state" : "translated",
             "value" : "Тема"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主题"
+          }
+        }
+      }
+    },
+    "There's nothing in Favorites." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المفضلة لديك فارغة الآن."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Favoriten sind derzeit leer."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus Favoritos están vacíos ahora."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos Favoris sont actuellement vides."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आपके पसंदीदा अभी खाली हैं।"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seus Favoritos estão vazios agora."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В Избранном ничего нет."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваше Вибране зараз пусте."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你的收藏现在是空的。"
+          }
         }
       }
     },
     "Vacuum cleaners" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مكانس كهربائية"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1539,6 +2287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aspirateurs"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "वैक्यूम क्लीनर्स"
           }
         },
         "pt-PT" : {
@@ -1558,11 +2312,23 @@
             "state" : "translated",
             "value" : "Пилососи"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "吸尘器"
+          }
         }
       }
     },
     "Version: %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإصدار: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1579,6 +2345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Version : %@"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "संस्करण: %@"
           }
         },
         "pt-PT" : {
@@ -1598,45 +2370,11 @@
             "state" : "translated",
             "value" : "Версія: %@"
           }
-        }
-      }
-    },
-    "Your Favorites is empty now." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Deine Favoriten sind derzeit leer."
-          }
         },
-        "es-419" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tus Favoritos están vacíos ahora."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vos Favoris sont actuellement vides."
-          }
-        },
-        "pt-PT" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Seus Favoritos estão vazios agora."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "В Избранном ничего нет."
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ваше Вибране зараз пусте."
+            "value" : "版本: %@"
           }
         }
       }
