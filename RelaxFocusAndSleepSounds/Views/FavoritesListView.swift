@@ -19,46 +19,29 @@ struct FavoritesListView: View {
     
     var body: some View {
         NavigationView {
-            if dataManager.displayType == .list {
-                if dataManager.sounds.filter({ $0.isFavorite }).isEmpty {
+            if dataManager.sounds.filter({ $0.isFavorite }).isEmpty {
+                VStack {
+                    Image(systemName: "heart.text.square")
+                        .font(.system(size: 100))
+                        .foregroundStyle(.accent)
+                        .padding()
                     VStack {
-                        Image(systemName: "heart.text.square")
-                            .font(.system(size: 100))
-                            .foregroundStyle(.accent)
-                            .padding()
-                        VStack {
-                            Text("Your Favorites is empty now.")
-                                .font(.headline)
-                            Text("Tap on the heart icon on the liked sound to add to your Favorites.")
-                                .font(.caption)
-                        }
-                        .frame(width: 250)
-                        .multilineTextAlignment(.center)
+                        Text("There's nothing in Favorites.")
+                            .font(.headline)
+                        Text("Tap on the heart icon on the liked sound to add to your Favorites.")
+                            .font(.caption)
                     }
-                } else {
+                    .frame(width: 250)
+                    .multilineTextAlignment(.center)
+                }
+            } else {
+                if dataManager.displayType == .list {
                     List(dataManager.sounds.filter { $0.isFavorite }, id: \.id) { sound in
                         CellView(sound: sound)
                     }
                     .navigationTitle("Favorites")
                     .toolbar {
                         NavigationBarView()
-                    }
-                }
-            } else {
-                if dataManager.sounds.filter({ $0.isFavorite }).isEmpty {
-                    VStack {
-                        Image(systemName: "heart.text.square")
-                            .font(.system(size: 100))
-                            .foregroundStyle(.accent)
-                            .padding()
-                        VStack {
-                            Text("Your Favorites is empty now.")
-                                .font(.headline)
-                            Text("Tap on the heart icon on the liked sound to add to your Favorites.")
-                                .font(.caption)
-                        }
-                        .frame(width: 250)
-                        .multilineTextAlignment(.center)
                     }
                 } else {
                     VStack {
