@@ -41,7 +41,7 @@ struct ProfileView: View {
                 Section("Social") {
                     SocialMenuItemView(action: dataManager.sendEmail, image: "envelope", text: "Give a feedback")
 //                    SocialMenuItemView(action: {}, image: "star", text: "Rate app")
-                    SocialMenuItemView(action: {}, image: "square.and.arrow.up", text: "Tell your friends")
+//                    SocialMenuItemView(action: {}, image: "square.and.arrow.up", text: "Tell your friends")
                 }
                 
                 NavigationLink(destination: AboutView()) {
