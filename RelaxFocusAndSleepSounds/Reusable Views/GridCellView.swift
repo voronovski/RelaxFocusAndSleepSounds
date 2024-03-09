@@ -20,7 +20,7 @@ struct GridCellView: View {
                 Image(sound.fileName)
                     .resizable()
                     .frame(width: 100, height: 100)
-                    .cornerRadius(20)
+                    .cornerRadius(12)
                     .shadow(radius: 10)
                     .onTapGesture(count: 1) {
                         audioManager.startPlayer(sound: sound.fileName)
@@ -29,7 +29,7 @@ struct GridCellView: View {
                 Image(systemName: sound.isFavorite ? "heart.fill" : "heart")
                     .resizable()
                     .frame(width: 22, height: 22)
-                    .offset(x: 28, y: -28)
+                    .offset(x: 30, y: -30)
                     .foregroundStyle(.accent)
                     .onTapGesture {
                         withAnimation {

@@ -22,9 +22,10 @@ struct CellView: View {
                     .resizable()
                     .scaledToFill()
                     .frame(width: 50, height: 50)
-                    .clipShape(Circle())
-                    .overlay(Circle().stroke(Color.strokeColorSet, lineWidth: 3))
-                    .shadow(radius: 10)
+                    .cornerRadius(8)
+//                    .clipShape(Circle())
+//                    .overlay(Circle().stroke(Color.strokeColorSet, lineWidth: 3))
+                    .shadow(radius: 5)
                     .padding(.trailing, 10)
                 Text(sound.name)
             }
