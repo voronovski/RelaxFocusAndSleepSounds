@@ -33,33 +33,16 @@ struct ProfileView: View {
                             }
                         }
                     }
-                    NavigationLink(destination: AboutView()) {
-                        ProfileCellView(image: "character.ja", text: "Language")
-                    }
+//                    NavigationLink(destination: AboutView()) {
+//                        ProfileCellView(image: "character.ja", text: "Language")
+//                    }
                 }
-                .headerProminence(.increased)
                 
                 Section("Social") {
-                    Button(action: dataManager.sendEmail) {
-                        HStack {
-                            Image(systemName: "envelope")
-                            Text("Give a feedback")
-                                .foregroundStyle(.foreground)
-                            Spacer()
-                            Image(systemName: "chevron.forward")
-                                .font(.system(size: UIFont.systemFontSize, weight: .semibold))
-                                .foregroundStyle(.gray)
-                                .opacity(0.6)
-                        }
-                    }
-                    NavigationLink(destination: AboutView()) {
-                        ProfileCellView(image: "star", text: "Rate app")
-                    }
-                    NavigationLink(destination: AboutView()) {
-                        ProfileCellView(image: "square.and.arrow.up", text: "Tell your friends")
-                    }
+                    SocialMenuItemView(action: dataManager.sendEmail, image: "envelope", text: "Give a feedback")
+//                    SocialMenuItemView(action: {}, image: "star", text: "Rate app")
+                    SocialMenuItemView(action: {}, image: "square.and.arrow.up", text: "Tell your friends")
                 }
-                .headerProminence(.increased)
                 
                 NavigationLink(destination: AboutView()) {
                     ProfileCellView(image: "info.circle", text: "About")
@@ -67,6 +50,7 @@ struct ProfileView: View {
             }
             .navigationTitle("Profile")
         }
+        .headerProminence(.increased)
     }
 }
 
