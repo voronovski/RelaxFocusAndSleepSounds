@@ -21,7 +21,7 @@ struct CellView: View {
                 Image(sound.fileName)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 50, height: 50)
+                    .frame(width: 45, height: 45)
                     .cornerRadius(8)
 //                    .clipShape(Circle())
 //                    .overlay(Circle().stroke(Color.strokeColorSet, lineWidth: 3))
