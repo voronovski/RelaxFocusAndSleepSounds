@@ -21,7 +21,6 @@ struct GridCellView: View {
                     .resizable()
                     .frame(width: 100, height: 100)
                     .cornerRadius(12)
-                    .shadow(radius: 10)
                     .onTapGesture(count: 1) {
                         audioManager.startPlayer(sound: sound.fileName)
                     }
