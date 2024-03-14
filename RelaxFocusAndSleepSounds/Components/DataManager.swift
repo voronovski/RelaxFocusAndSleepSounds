@@ -153,7 +153,7 @@ final class DataManager: ObservableObject {
         
         let emailBody = "Tape your feedback here\n\nnOS: \(iOSVersion)\nVersion: \(appVersion)"
         
-        if let url = URL(string: "mailto:voronovski@outlook.com?subject=Relax, Focus and Better Sleep Sounds: Feedback&body=\(emailBody)") {
+        if let url = URL(string: "mailto:feedback@siberiasoftware.com?subject=Relax, Focus and Better Sleep Sounds: Feedback&body=\(emailBody)") {
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url)
             }
