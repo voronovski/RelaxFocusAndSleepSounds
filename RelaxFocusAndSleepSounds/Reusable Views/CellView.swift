@@ -23,9 +23,6 @@ struct CellView: View {
                     .scaledToFill()
                     .frame(width: 45, height: 45)
                     .cornerRadius(8)
-//                    .clipShape(Circle())
-//                    .overlay(Circle().stroke(Color.strokeColorSet, lineWidth: 3))
-                    .shadow(radius: 5)
                     .padding(.trailing, 10)
                 Text(sound.name)
             }
